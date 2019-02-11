@@ -1,0 +1,795 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{48}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{pir}{[n. d.]}]%
+        {piracy}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Agrawal, Fu, and Menzies}{Agrawal
+  et~al\mbox{.}}{2016}]%
+        {AgrawalFM16}
+\bibfield{author}{\bibinfo{person}{Amritanshu Agrawal}, \bibinfo{person}{Wei
+  Fu}, {and} \bibinfo{person}{Tim Menzies}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{What is Wrong with Topic Modeling? (and How to Fix
+  it Using Search-based SE).}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1608.08176}
+  (\bibinfo{year}{2016}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1608.html#AgrawalFM16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apecechea, Eisenbarth, and Sunar}{Apecechea
+  et~al\mbox{.}}{2015}]%
+        {ApececheaES15}
+\bibfield{author}{\bibinfo{person}{Gorka~Irazoqui Apecechea},
+  \bibinfo{person}{Thomas Eisenbarth}, {and} \bibinfo{person}{Berk Sunar}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{S\$A: A Shared Cache Attack That Works across Cores
+  and Defies VM Sandboxing - and Its Application to AES.}. In
+  \bibinfo{booktitle}{\emph{IEEE Symposium on Security and Privacy}}.
+  \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{pages}{591--604}.
+\newblock
+\showISBNx{978-1-4673-6949-7}
+
+
+\bibitem[\protect\citeauthoryear{Baer and Parkinson}{Baer and
+  Parkinson}{2007}]%
+        {BaerP07}
+\bibfield{author}{\bibinfo{person}{Walter~S. Baer} {and}
+  \bibinfo{person}{Andrew Parkinson}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Cyberinsurance in IT Security Management.}
+\newblock \bibinfo{journal}{\emph{IEEE Security \& Privacy}}
+  \bibinfo{volume}{5}, \bibinfo{number}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{50--56}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp5.html#BaerP07}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Beckers, Krautsevich, and Yautsiukhin}{Beckers
+  et~al\mbox{.}}{2014}]%
+        {BeckersKY14}
+\bibfield{author}{\bibinfo{person}{Kristian Beckers}, \bibinfo{person}{Leanid
+  Krautsevich}, {and} \bibinfo{person}{Artsiom Yautsiukhin}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Analysis of Social Engineering Threats with Attack
+  Graphs.}. In \bibinfo{booktitle}{\emph{DPM/SETOP/QASA}}
+  \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
+  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
+  \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
+  \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
+  (Eds.), Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{216--232}.
+\newblock
+\showISBNx{978-3-319-17015-2}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html#BeckersKY14}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Blackwell}{Blackwell}{2009}]%
+        {Blackwell2009}
+\bibfield{author}{\bibinfo{person}{Clive Blackwell}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A security architecture to protect against the
+  insider threat from damage, fraud and theft}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 5th Annual Workshop on Cyber
+  Security and Information Intelligence Research: Cyber Security and
+  Information Intelligence Challenges and Strategies}}
+  \emph{(\bibinfo{series}{CSIIRW '09})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{45},
+  \bibinfo{numpages}{4}~pages.
+\newblock
+\showISBNx{978-1-60558-518-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1558607.1558659}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bouyahia, Idrees, Cuppens-Boulahia, Cuppens,
+  and Autrel}{Bouyahia et~al\mbox{.}}{2014}]%
+        {BouyahiaICCA14}
+\bibfield{author}{\bibinfo{person}{Tarek Bouyahia},
+  \bibinfo{person}{Muhammad~Sabir Idrees}, \bibinfo{person}{Nora
+  Cuppens-Boulahia}, \bibinfo{person}{Frédéric Cuppens}, {and}
+  \bibinfo{person}{Fabien Autrel}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Metric for Security Activities Assisted by
+  Argumentative Logic.}. In \bibinfo{booktitle}{\emph{DPM/SETOP/QASA}}
+  \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
+  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
+  \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
+  \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
+  (Eds.), Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{183--197}.
+\newblock
+\showISBNx{978-3-319-17015-2}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html#BouyahiaICCA14}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Buder and Cre{\ss}}{Buder and
+  Cre{\ss}}{2003}]%
+        {Bas03}
+\bibfield{author}{\bibinfo{person}{Jurgen Buder} {and} \bibinfo{person}{Ulrike
+  Cre{\ss}}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Manual or electronic? The role of coding in
+  qualitative data analysis}.
+\newblock \bibinfo{journal}{\emph{Educational Research}} \bibinfo{volume}{45},
+  \bibinfo{number}{2} (\bibinfo{year}{2003}), \bibinfo{pages}{143--154}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chang, Venkatasubramanian, West, and
+  Lee}{Chang et~al\mbox{.}}{2013}]%
+        {ChangVWL13}
+\bibfield{author}{\bibinfo{person}{Jian Chang}, \bibinfo{person}{Krishna~K.
+  Venkatasubramanian}, \bibinfo{person}{Andrew~G. West}, {and}
+  \bibinfo{person}{Insup Lee}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Analyzing and defending against web-based malware.}
+\newblock \bibinfo{journal}{\emph{ACM Comput. Surv.}} \bibinfo{volume}{45},
+  \bibinfo{number}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{49:1--49:35}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/csur/csur45.html#ChangVWL13}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chang and Lin}{Chang and Lin}{2007}]%
+        {ChangL07}
+\bibfield{author}{\bibinfo{person}{Shuchih~Ernest Chang} {and}
+  \bibinfo{person}{Chin-Shien Lin}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Exploring organizational culture for information
+  security management.}
+\newblock \bibinfo{journal}{\emph{Industrial Management and Data Systems}}
+  \bibinfo{volume}{107}, \bibinfo{number}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{438--458}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/imds/imds107.html#ChangL07}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chen, Robinson, and Siems}{Chen
+  et~al\mbox{.}}{2004}]%
+        {Chen2004c}
+\bibfield{author}{\bibinfo{person}{Andrew~H. Chen}, \bibinfo{person}{Kenneth~J.
+  Robinson}, {and} \bibinfo{person}{Thomas~F. Siems}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{The wealth effects from a subordinated debt policy:
+  evidence from passage of the Gramm-Leach-Bliley Act}.
+\newblock \bibinfo{journal}{\emph{Review of Financial Economics}}
+  \bibinfo{volume}{13}, \bibinfo{number}{1-2} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{103--119}.
+\newblock
+\urldef\tempurl%
+\url{http://www.sciencedirect.com/science/article/B6W61-48JK7PV-1/1/56667127df9ac7083de3292e49401983}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chuang, Manning, and Heer}{Chuang
+  et~al\mbox{.}}{2012}]%
+        {Chuang:2012:TVT:2254556.2254572}
+\bibfield{author}{\bibinfo{person}{Jason Chuang},
+  \bibinfo{person}{Christopher~D. Manning}, {and} \bibinfo{person}{Jeffrey
+  Heer}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Termite: Visualization Techniques for Assessing
+  Textual Topic Models}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  International Working Conference on Advanced Visual Interfaces}}
+  \emph{(\bibinfo{series}{AVI '12})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{74--77}.
+\newblock
+\showISBNx{978-1-4503-1287-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2254556.2254572}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Coppolino, D'Antonio, Formicola, and
+  Romano}{Coppolino et~al\mbox{.}}{2014}]%
+        {CoppolinoDFR14}
+\bibfield{author}{\bibinfo{person}{Luigi Coppolino}, \bibinfo{person}{Salvatore
+  D'Antonio}, \bibinfo{person}{Valerio Formicola}, {and} \bibinfo{person}{Luigi
+  Romano}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Real-time Security \& Dependability monitoring:
+  Make it a bundle.}. In \bibinfo{booktitle}{\emph{ICCST}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{1--6}.
+\newblock
+\showISBNx{978-1-4799-3530-7}
+
+
+\bibitem[\protect\citeauthoryear{daily}{daily}{2018}]%
+        {kaspersky}
+\bibfield{author}{\bibinfo{person}{Kaspersky~Lab daily}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{How to Address Incident Response Challenges}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2Vd2xca}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{employee}{employee}{2018}]%
+        {norton}
+\bibfield{author}{\bibinfo{person}{Symantec employee}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{10 cyber security facts and statistics for 2018}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://nr.tn/2pHuWs5}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Farace and Sch{\"o}pfel}{Farace and
+  Sch{\"o}pfel}{2010}]%
+        {schopfel2010literature}
+\bibfield{editor}{\bibinfo{person}{Dominic Farace} {and}
+  \bibinfo{person}{Joachim Sch{\"o}pfel}} (Eds.).
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Grey literature in library and information
+  studies}}.
+\newblock \bibinfo{publisher}{K.G. Saur}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gabriel, Schleiner, Brauner, Steyer,
+  Gellenbeck, and Mudimu}{Gabriel et~al\mbox{.}}{2017}]%
+        {abrielSBSGM17}
+\bibfield{author}{\bibinfo{person}{Alexander Gabriel}, \bibinfo{person}{Simon
+  Schleiner}, \bibinfo{person}{Florian Brauner}, \bibinfo{person}{Florian
+  Steyer}, \bibinfo{person}{Verena Gellenbeck}, {and}
+  \bibinfo{person}{Ompe~Aimé Mudimu}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Process modelling of physical and cyber terrorist
+  attacks on networks of public transportation infrastructure.}. In
+  \bibinfo{booktitle}{\emph{ISCRAM}}, \bibfield{editor}{\bibinfo{person}{Tina
+  Comes}, \bibinfo{person}{Frédérick Bénaben}, \bibinfo{person}{Chihab
+  Hanachi}, \bibinfo{person}{Matthieu Lauras}, {and} \bibinfo{person}{Aurélie
+  Montarnal}} (Eds.). \bibinfo{publisher}{ISCRAM Association}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/iscram/iscram2017.html#GabrielSBSGM17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{García-Alfaro, Herrera-Joancomartí, Lupu,
+  Posegga, Aldini, Martinelli, and Suri}{García-Alfaro et~al\mbox{.}}{2015}]%
+        {2014-8872}
+\bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
+  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
+  \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
+  \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
+  (Eds.). \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Data Privacy Management, Autonomous
+  Spontaneous Security, and Security Assurance - 9th International Workshop,
+  DPM 2014, 7th International Workshop, SETOP 2014, and 3rd International
+  Workshop, QASA 2014, Wroclaw, Poland, September 10-11, 2014. Revised Selected
+  Papers}}. \bibinfo{series}{Lecture Notes in Computer Science},
+  Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer}.
+\newblock
+\showISBNx{978-3-319-17015-2}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Garousi, Garousi, Moussavi, Ruhe, and
+  Smith}{Garousi et~al\mbox{.}}{2013}]%
+        {garousi2013evaluating}
+\bibfield{author}{\bibinfo{person}{G. Garousi}, \bibinfo{person}{V. Garousi},
+  \bibinfo{person}{M. Moussavi}, \bibinfo{person}{G. Ruhe}, {and}
+  \bibinfo{person}{B. Smith}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Evaluating usage and quality of technical software
+  documentation: an empirical study}. In \bibinfo{booktitle}{\emph{17th
+  International Conference on Evaluation and Assessment in Software
+  Engineering}}. \bibinfo{address}{Porto de Galinh, Brazil}.
+\newblock
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=2461003}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Garousi, Felderer, and Mäntylä}{Garousi
+  et~al\mbox{.}}{2016}]%
+        {GarousiFM16}
+\bibfield{author}{\bibinfo{person}{Vahid Garousi}, \bibinfo{person}{Michael
+  Felderer}, {and} \bibinfo{person}{Mika~V. Mäntylä}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The need for multivocal literature reviews in
+  software engineering: complementing systematic literature reviews with grey
+  literature.}. In \bibinfo{booktitle}{\emph{EASE}},
+  \bibfield{editor}{\bibinfo{person}{Sarah Beecham}, \bibinfo{person}{Barbara
+  Kitchenham}, {and} \bibinfo{person}{Stephen~G. MacDonell}} (Eds.).
+  \bibinfo{publisher}{ACM}, \bibinfo{pages}{26:1--26:6}.
+\newblock
+\showISBNx{978-1-4503-3691-8}
+
+
+\bibitem[\protect\citeauthoryear{Garousi, Felderer, and Mäntylä}{Garousi
+  et~al\mbox{.}}{2017}]%
+        {mv}
+\bibfield{author}{\bibinfo{person}{Vahid Garousi}, \bibinfo{person}{Michael
+  Felderer}, {and} \bibinfo{person}{Mika~V. Mäntylä}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Guidelines for including the grey literature and
+  conducting multivocal literature reviews in software engineering.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1707.02553}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1707.html#GarousiFM17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gharibi}{Gharibi}{2012}]%
+        {abs-1201-0949}
+\bibfield{author}{\bibinfo{person}{Wajeb Gharibi}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Some Recommended Protection Technologies for Cyber
+  Crime Based on Social Engineering Techniques -- Phishing}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1201.0949}
+  (\bibinfo{year}{2012}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1201.html#abs-1201-0949}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Green and Swets}{Green and Swets}{1989}]%
+        {Green1989}
+\bibfield{author}{\bibinfo{person}{David~Marvin Green} {and}
+  \bibinfo{person}{John~A. Swets}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Signal Detection Theory and
+  Psychophysics}} (\bibinfo{edition}{reprint} ed.)}.
+\newblock \bibinfo{publisher}{Peninsula Publishers}, \bibinfo{address}{Los
+  Altos, CA}. 521 pages.
+\newblock
+\showISBNx{0932146236}
+\urldef\tempurl%
+\url{http://www.amazon.com/Signal-Detection-Theory-Psychophysics-Marvin/dp/0932146236}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Harel and Gery}{Harel and Gery}{1997}]%
+        {HarelGery1997}
+\bibfield{author}{\bibinfo{person}{David Harel} {and} \bibinfo{person}{Eran
+  Gery}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Executable Object Modeling with Statecharts}.
+\newblock \bibinfo{journal}{\emph{IEEE Computer}} \bibinfo{volume}{30},
+  \bibinfo{number}{7} (\bibinfo{date}{July} \bibinfo{year}{1997}),
+  \bibinfo{pages}{31--42}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoofnagle}{Hoofnagle}{2013}]%
+        {Hoofnagle2013}
+\bibfield{author}{\bibinfo{person}{Chris~Jay Hoofnagle}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{H}ow the {F}air {C}redit {R}eporting {A}ct
+  {R}egulates {B}ig {D}ata}. In \bibinfo{booktitle}{\emph{{F}uture of {P}rivacy
+  {F}orum {W}orkshop on {B}ig {D}ata and {P}rivacy: {M}aking {E}nds {M}eet}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Johnson and Onwuegbuzie}{Johnson and
+  Onwuegbuzie}{2004}]%
+        {JohOnw04}
+\bibfield{author}{\bibinfo{person}{R.~Burke Johnson} {and}
+  \bibinfo{person}{Anthony~J. Onwuegbuzie}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Mixed Methods Research: A Research Paradigm Whose
+  Time Has Come}.
+\newblock \bibinfo{journal}{\emph{Educational Researcher}}
+  \bibinfo{volume}{33}, \bibinfo{number}{7} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{14--26}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.3102/0013189X033007014}
+\showDOI{\tempurl}
+\showeprint{http://edr.sagepub.com/content/33/7/14.full.pdf+html}
+
+
+\bibitem[\protect\citeauthoryear{Kitchenham and Charters}{Kitchenham and
+  Charters}{2007}]%
+        {kitchenham-charters}
+\bibfield{author}{\bibinfo{person}{Barbara Kitchenham} {and}
+  \bibinfo{person}{Stuart Charters}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{title}{Guidelines for performing systematic literature
+  reviews in software engineering}.
+\newblock \bibinfo{howpublished}{Technical Report EBSE-2007-01, School of
+  Computer Science and Mathematics, Keele University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kitchenham, Pearlbrereton, Budgen, Turner,
+  Bailey, and Linkman}{Kitchenham et~al\mbox{.}}{2008}]%
+        {slr}
+\bibfield{author}{\bibinfo{person}{B. Kitchenham}, \bibinfo{person}{O.
+  Pearlbrereton}, \bibinfo{person}{D. Budgen}, \bibinfo{person}{M. Turner},
+  \bibinfo{person}{J. Bailey}, {and} \bibinfo{person}{S. Linkman}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Systematic literature reviews in software
+  engineering Ð A systematic literature review}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  (\bibinfo{date}{November} \bibinfo{year}{2008}).
+\newblock
+\showISSN{09505849}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2008.09.009}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Krippendorff}{Krippendorff}{2004}]%
+        {content}
+\bibfield{author}{\bibinfo{person}{Klaus Krippendorff}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Content Analysis: An Introduction to Its
+  Methodology (second edition)}}.
+\newblock \bibinfo{publisher}{Sage Publications}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lauinger, Pankakoski, Balzarotti, and
+  Kirda}{Lauinger et~al\mbox{.}}{2010}]%
+        {LauingerPBK10}
+\bibfield{author}{\bibinfo{person}{Tobias Lauinger}, \bibinfo{person}{Veikko
+  Pankakoski}, \bibinfo{person}{Davide Balzarotti}, {and}
+  \bibinfo{person}{Engin Kirda}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Honeybot, Your Man in the Middle for Automated
+  Social Engineering.}. In \bibinfo{booktitle}{\emph{LEET}},
+  \bibfield{editor}{\bibinfo{person}{Michael Bailey}} (Ed.).
+  \bibinfo{publisher}{USENIX Association}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/leet/leet2010.html#LauingerPBK10}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ma, Sun, and Abraham}{Ma
+  et~al\mbox{.}}{2012}]%
+        {Ma2012}
+\bibfield{author}{\bibinfo{person}{Kun Ma}, \bibinfo{person}{Runyuan Sun},
+  {and} \bibinfo{person}{Ajith Abraham}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Toward a lightweight framework for monitoring
+  public clouds}. In \bibinfo{booktitle}{\emph{Computational Aspects of Social
+  Networks (CASoN), 2012 Fourth International Conference on}}. IEEE,
+  \bibinfo{pages}{361--365}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ma, Lin, Pan, Lin, Wang, Zhou, and Liang}{Ma
+  et~al\mbox{.}}{2018}]%
+        {MaLPLWZL18}
+\bibfield{author}{\bibinfo{person}{Meng Ma}, \bibinfo{person}{Weilan Lin},
+  \bibinfo{person}{Disheng Pan}, \bibinfo{person}{Yangxin Lin},
+  \bibinfo{person}{Ping Wang}, \bibinfo{person}{Yuchen Zhou}, {and}
+  \bibinfo{person}{Xiaoxing Liang}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Data and Decision Intelligence for
+  Human-in-the-Loop Cyber-Physical Systems: Reference Model, Recent Progresses
+  and Challenges.}
+\newblock \bibinfo{journal}{\emph{Signal Processing Systems}}
+  \bibinfo{volume}{90}, \bibinfo{number}{8-9} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{1167--1178}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/vlsisp/vlsisp90.html#MaLPLWZL18}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mataracioglu, Özkan, and
+  Hackney}{Mataracioglu et~al\mbox{.}}{2015}]%
+        {MataraciogluOH15}
+\bibfield{author}{\bibinfo{person}{Tolga Mataracioglu}, \bibinfo{person}{Sevgi
+  Özkan}, {and} \bibinfo{person}{Ray Hackney}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Towards a Security Lifecycle Model against Social
+  Engineering Attacks: SLM-SEA.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1507.02458}
+  (\bibinfo{year}{2015}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1507.html#MataraciogluOH15}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Meland, Tøndel, and Solhaug}{Meland
+  et~al\mbox{.}}{2015}]%
+        {MelandTS15}
+\bibfield{author}{\bibinfo{person}{Per~Håkon Meland},
+  \bibinfo{person}{Inger~Anne Tøndel}, {and} \bibinfo{person}{Bjørnar
+  Solhaug}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Mitigating Risk with Cyberinsurance.}
+\newblock \bibinfo{journal}{\emph{IEEE Security \& Privacy}}
+  \bibinfo{volume}{13}, \bibinfo{number}{6} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{38--43}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp13.html#MelandTS15}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{O'Riordan, Feller, and Nagle}{O'Riordan
+  et~al\mbox{.}}{2016}]%
+        {ORiordanFN16}
+\bibfield{author}{\bibinfo{person}{Sheila O'Riordan}, \bibinfo{person}{Joseph
+  Feller}, {and} \bibinfo{person}{Tadhg Nagle}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A categorisation framework for a feature-level
+  analysis of social network sites.}
+\newblock \bibinfo{journal}{\emph{Journal of Decision Systems}}
+  \bibinfo{volume}{25}, \bibinfo{number}{3} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{244--262}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/jds/jds25.html#ORiordanFN16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Petersen, Feldt, Mujtaba, and
+  Mattsson}{Petersen et~al\mbox{.}}{2008}]%
+        {sms-petersen}
+\bibfield{author}{\bibinfo{person}{Kai Petersen}, \bibinfo{person}{Robert
+  Feldt}, \bibinfo{person}{Shahid Mujtaba}, {and} \bibinfo{person}{Michael
+  Mattsson}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Systematic Mapping Studies in Software
+  Engineering}. In \bibinfo{booktitle}{\emph{Proceedings of the 12th
+  International Conference on Evaluation and Assessment in Software
+  Engineering}}. \bibinfo{publisher}{BCS Learning \& Development Ltd.},
+  \bibinfo{pages}{68--77}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ring, Wunderlich, Grüdl, Landes, and
+  Hotho}{Ring et~al\mbox{.}}{2017}]%
+        {ring2017data}
+\bibfield{author}{\bibinfo{person}{Markus Ring}, \bibinfo{person}{Sarah
+  Wunderlich}, \bibinfo{person}{Dominik Grüdl}, \bibinfo{person}{Dieter
+  Landes}, {and} \bibinfo{person}{Andreas Hotho}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Flow-based benchmark data sets for intrusion
+  detection}. In \bibinfo{booktitle}{\emph{Proceedings of the 16th European
+  Conference on Cyber Warfare and Security (ECCWS)}}.
+  \bibinfo{publisher}{ACPI}, \bibinfo{pages}{361--369}.
+\newblock
+\showISBNx{1911218433}
+
+
+\bibitem[\protect\citeauthoryear{Scott-Hayward, O'Callaghan, and
+  Sezer}{Scott-Hayward et~al\mbox{.}}{2013}]%
+        {scotthayward2013sec}
+\bibfield{author}{\bibinfo{person}{S. Scott-Hayward}, \bibinfo{person}{G.
+  O'Callaghan}, {and} \bibinfo{person}{S. Sezer}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{SDN} Security: A Survey}. In
+  \bibinfo{booktitle}{\emph{Future Networks and Services (SDN4FNS), 2013 IEEE
+  SDN for}}. \bibinfo{pages}{1--7}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SDN4FNS.2013.6702553}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Sievert and Shirley}{Sievert and
+  Shirley}{2014}]%
+        {W14-3110}
+\bibfield{author}{\bibinfo{person}{Carson Sievert} {and}
+  \bibinfo{person}{Kenneth Shirley}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{LDAvis: A method for visualizing and interpreting
+  topics}. In \bibinfo{booktitle}{\emph{Proceedings of the Workshop on
+  Interactive Language Learning, Visualization, and Interfaces}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{pages}{63--70}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.3115/v1/W14-3110}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Solano and Peinado}{Solano and
+  Peinado}{2017}]%
+        {SolanoP17}
+\bibfield{author}{\bibinfo{person}{Pablo~Casais Solano} {and}
+  \bibinfo{person}{Antonio Jose~Reinoso Peinado}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Socio-economic factors in cybercrime: Statistical
+  study of the relation between socio-economic factors and cybercrime.}. In
+  \bibinfo{booktitle}{\emph{CyberSA}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{1--4}.
+\newblock
+\showISBNx{978-1-5090-5060-4}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/cybersa/cybersa2017.html#SolanoP17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Stempfhuber, Schaer, and Shen}{Stempfhuber
+  et~al\mbox{.}}{2008}]%
+        {stempfhuber2008enhancing}
+\bibfield{author}{\bibinfo{person}{Maximilian Stempfhuber},
+  \bibinfo{person}{Philipp Schaer}, {and} \bibinfo{person}{Wei Shen}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Enhancing Visibility: Integrating Grey Literature
+  in the SOWIPORT Information Cycle}. In \bibinfo{booktitle}{\emph{Ninth
+  International Conference on Grey Literature: Grey Foundations in Information
+  Landscape}} \emph{(\bibinfo{series}{GL-conference series})}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tang, Li, and Zhang}{Tang
+  et~al\mbox{.}}{2016}]%
+        {TangLZ16}
+\bibfield{author}{\bibinfo{person}{Mincong Tang}, \bibinfo{person}{Menggang
+  Li}, {and} \bibinfo{person}{Tao Zhang}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The impacts of organizational culture on
+  information security culture: a case study.}
+\newblock \bibinfo{journal}{\emph{Information Technology and Management}}
+  \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{179--186}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/itm/itm17.html#TangLZ16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Techopedia}{Techopedia}{2019}]%
+        {techopedia}
+\bibfield{author}{\bibinfo{person}{Techopedia}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Technology Dictionary}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2w5CXfJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Toch, Bettini, Shmueli, Radaelli, Lanzi,
+  Riboni, and Lepri}{Toch et~al\mbox{.}}{2018}]%
+        {Toch:2018:PIC:3186333.3172869}
+\bibfield{author}{\bibinfo{person}{Eran Toch}, \bibinfo{person}{Claudio
+  Bettini}, \bibinfo{person}{Erez Shmueli}, \bibinfo{person}{Laura Radaelli},
+  \bibinfo{person}{Andrea Lanzi}, \bibinfo{person}{Daniele Riboni}, {and}
+  \bibinfo{person}{Bruno Lepri}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The Privacy Implications of Cyber Security Systems:
+  A Technological Survey}.
+\newblock \bibinfo{journal}{\emph{ACM Comput. Surv.}} \bibinfo{volume}{51},
+  \bibinfo{number}{2}, Article \bibinfo{articleno}{36} (\bibinfo{date}{Feb.}
+  \bibinfo{year}{2018}), \bibinfo{numpages}{27}~pages.
+\newblock
+\showISSN{0360-0300}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3172869}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tounsi and Rais}{Tounsi and Rais}{2018}]%
+        {TounsiR18}
+\bibfield{author}{\bibinfo{person}{Wiem Tounsi} {and} \bibinfo{person}{Helmi
+  Rais}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A survey on technical threat intelligence in the
+  age of sophisticated cyber attacks.}
+\newblock \bibinfo{journal}{\emph{Computers & Security}}  \bibinfo{volume}{72}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{212--233}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/compsec/compsec72.html#TounsiR18}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Vidal and Choo}{Vidal and Choo}{2017}]%
+        {VidalC17}
+\bibfield{author}{\bibinfo{person}{Chaz Vidal} {and}
+  \bibinfo{person}{Kim-Kwang~Raymond Choo}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Situational Crime Prevention and the Mitigation of
+  Cloud Computing Threats.}. In
+  \bibinfo{booktitle}{\emph{ATCS/SePrIoT@SecureComm}}
+  \emph{(\bibinfo{series}{Lecture Notes of the Institute for Computer Sciences,
+  Social Informatics and Telecommunications Engineering})},
+  \bibfield{editor}{\bibinfo{person}{Xiaodong Lin}, \bibinfo{person}{Ali
+  Ghorbani}, \bibinfo{person}{Kui Ren}, \bibinfo{person}{Sencun Zhu}, {and}
+  \bibinfo{person}{Aiqing Zhang}} (Eds.), Vol.~\bibinfo{volume}{239}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{218--233}.
+\newblock
+\showISBNx{978-3-319-78816-6}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/securecomm/securecomm2017w.html#VidalC17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Xu, Zhan, Xu, and Ye}{Xu
+  et~al\mbox{.}}{2013}]%
+        {Xu:2013:CDM:2435349.2435366}
+\bibfield{author}{\bibinfo{person}{Li Xu}, \bibinfo{person}{Zhenxin Zhan},
+  \bibinfo{person}{Shouhuai Xu}, {and} \bibinfo{person}{Keying Ye}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Cross-layer Detection of Malicious Websites}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Third ACM Conference on Data and
+  Application Security and Privacy}} \emph{(\bibinfo{series}{CODASPY '13})}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{141--152}.
+\newblock
+\showISBNx{978-1-4503-1890-7}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2435349.2435366}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zave}{Zave}{2003}]%
+        {Zave03}
+\bibfield{author}{\bibinfo{person}{Pamela Zave}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{An experiment in feature engineering}.
+\newblock In \bibinfo{booktitle}{\emph{Programming methodology}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{address}{imported}.
+\newblock
+
+
+\end{thebibliography}
