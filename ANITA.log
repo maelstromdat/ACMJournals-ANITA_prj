@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  11 FEB 2019 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  11 FEB 2019 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2217,11 +2217,12 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 [15.15 <./img/codingALL_topic1.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 54.
+(Font)              scaled to size 7.0pt on input line 47.
+LaTeX Info: Redefining \tempurl on input line 81.
  [16.16]
-LaTeX Info: Redefining \tempurl on input line 88.
-LaTeX Info: Redefining \tempurl on input line 111.
-LaTeX Info: Redefining \tempurl on input line 131.
+LaTeX Info: Redefining \tempurl on input line 104.
+LaTeX Info: Redefining \tempurl on input line 124.
+LaTeX Info: Redefining \tempurl on input line 147.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2230,24 +2231,21 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17.17 <./img/codingALL_topic2.pdf>]
-LaTeX Info: Redefining \tempurl on input line 154.
-LaTeX Info: Redefining \tempurl on input line 182.
-LaTeX Info: Redefining \tempurl on input line 198.
-LaTeX Info: Redefining \tempurl on input line 216.
+LaTeX Info: Redefining \tempurl on input line 175.
+LaTeX Info: Redefining \tempurl on input line 191.
+LaTeX Info: Redefining \tempurl on input line 209.
+LaTeX Info: Redefining \tempurl on input line 228.
  [18.18 <./img/codingALL_topic3.pdf>]
-LaTeX Info: Redefining \tempurl on input line 235.
-LaTeX Info: Redefining \tempurl on input line 260.
-LaTeX Info: Redefining \tempurl on input line 273.
-LaTeX Info: Redefining \tempurl on input line 305.
-LaTeX Info: Redefining \tempurl on input line 327.
-LaTeX Info: Redefining \tempurl on input line 344.
-LaTeX Info: Redefining \tempurl on input line 376.
-LaTeX Info: Redefining \tempurl on input line 391.
-LaTeX Info: Redefining \tempurl on input line 407.
-LaTeX Info: Redefining \tempurl on input line 445.
-
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
+LaTeX Info: Redefining \tempurl on input line 253.
+LaTeX Info: Redefining \tempurl on input line 266.
+LaTeX Info: Redefining \tempurl on input line 298.
+LaTeX Info: Redefining \tempurl on input line 320.
+LaTeX Info: Redefining \tempurl on input line 337.
+LaTeX Info: Redefining \tempurl on input line 369.
+LaTeX Info: Redefining \tempurl on input line 384.
+LaTeX Info: Redefining \tempurl on input line 400.
+LaTeX Info: Redefining \tempurl on input line 438.
+LaTeX Info: Redefining \tempurl on input line 469.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2256,21 +2254,21 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19.19 <./img/codingALL_topic4.pdf>]
-LaTeX Info: Redefining \tempurl on input line 476.
-LaTeX Info: Redefining \tempurl on input line 502.
-LaTeX Info: Redefining \tempurl on input line 534.
-LaTeX Info: Redefining \tempurl on input line 551.
-LaTeX Info: Redefining \tempurl on input line 568.
-LaTeX Info: Redefining \tempurl on input line 586.
-LaTeX Info: Redefining \tempurl on input line 631.
-LaTeX Info: Redefining \tempurl on input line 647.
-LaTeX Info: Redefining \tempurl on input line 664.
-LaTeX Info: Redefining \tempurl on input line 694.
-LaTeX Info: Redefining \tempurl on input line 707.
-LaTeX Info: Redefining \tempurl on input line 727.
-LaTeX Info: Redefining \tempurl on input line 741.
-LaTeX Info: Redefining \tempurl on input line 762.
-LaTeX Info: Redefining \tempurl on input line 781.
+LaTeX Info: Redefining \tempurl on input line 495.
+LaTeX Info: Redefining \tempurl on input line 527.
+LaTeX Info: Redefining \tempurl on input line 544.
+LaTeX Info: Redefining \tempurl on input line 561.
+LaTeX Info: Redefining \tempurl on input line 579.
+LaTeX Info: Redefining \tempurl on input line 624.
+LaTeX Info: Redefining \tempurl on input line 640.
+LaTeX Info: Redefining \tempurl on input line 657.
+LaTeX Info: Redefining \tempurl on input line 687.
+LaTeX Info: Redefining \tempurl on input line 701.
+LaTeX Info: Redefining \tempurl on input line 714.
+LaTeX Info: Redefining \tempurl on input line 734.
+LaTeX Info: Redefining \tempurl on input line 748.
+LaTeX Info: Redefining \tempurl on input line 769.
+LaTeX Info: Redefining \tempurl on input line 788.
 )
 
 Class acmart Warning: Some images may lack descriptions.
@@ -2291,7 +2289,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  37152 strings out of 493089
  668401 string characters out of 6134841
- 788332 words of memory out of 5000000
+ 788334 words of memory out of 5000000
  39223 multiletter control sequences out of 15000+600000
  213184 words of font info for 410 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -2317,10 +2315,10 @@ TBI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txs
 y.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on ANITA.pdf (20 pages, 1292028 bytes).
+Output written on ANITA.pdf (20 pages, 1292343 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
+ 764 PDF objects out of 1000 (max. 8388607)
+ 624 compressed objects within 7 object streams
  140 named destinations out of 1000 (max. 500000)
  49413 words of extra memory for PDF output out of 51595 (max. 10000000)
 
