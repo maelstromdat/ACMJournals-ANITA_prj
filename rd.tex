@@ -1,0 +1,162 @@
+This systematic literature review seeks to address the research problem of providing a clear and detailed overview of the methods and indicators that can be used for cybercrime threat intelligence. Because much work has been conducted and disseminated in non-scientific venues and by non-governmental organisations, we opt for a systematic \emph{multivocal} literature review \cite{mv}, meaning that both grey and white literature are considered as equal sources of valuable data. In the rest of the section we flesh out the research questions and methods that we employed to attain our results.
+
+\subsection{Research Questions and Approach}
+
+To address the aforementioned topic we formulate the following master research question:
+\begin{center}
+    \textbf{MRQ.} \emph{what guidelines, methods, and principles exist to establish cyberthreat level of online sources?}
+\end{center}
+
+Furthermore, to make the MRQ manageable from a scientific and empirical inquiry perspective, we elaborate further on the master question using the following sub-research questions (SRQs), specifically:
+\begin{enumerate}
+\item [SRQ1.] what online depth levels are assessed and to what extent?
+\item [SRQ2.] what degrees of anonymity exist for web-crawling?
+\item [SRQ3.] what policies exist to vary the degrees of anonymity?
+\item [SRQ4.] what website features are most indicative of cyberthreats?
+\item [SRQ5.] what risk assessment techniques exist?
+\item [SRQ6.] what data sources exist and how are they classified?
+\end{enumerate}
+
+The SRQs were designed to exhaustively cover the conceptual space reflected by our master research question. More specifically, in terms of SRQ1, we aim at figuring out which analysis techniques exist that cover which level of depth. Furthermore, in the scope of SRQ2 and SRQ3, we aim at understanding the techniques and approaches that would allow a law-enforcer to crawl online sources anonymously and to what extent this phenomenon is understood and addressed in the literature. Beyond that, with SRQ4 and SRQ5, we aim at figuring out which detection and analysis techniques exist and how they can be used, that is, upon which data features \cite{Zave03}. Finally, SRQ6 aims at cover the insights and intelligence available in the literature to describe and elaborate on the types and indicators around online sources of cybercrime (e.g., sites, blog-posts, APIs, etc.).
+
+A major intrinsic difficulty of our study is our necessary reliance over what is called \emph{grey} literature~\cite{GarousiFM16}, intended as materials and research produced by organizations outside of the traditional commercial or academic publishing and distribution channels. Common grey literature publication types include reports (annual, research, technical, project, etc.), working papers, government documents, white papers and evaluations. On the one hand, the use of grey literature is risky since there is often little or no scientific factual representation of data or analyses presented in grey literature itself~\cite{schopfel2010literature}. 
+On the other hand, a growing interest around using grey literature for computing practitioners' benefit as well as combining it to determine the state of the art and practice around a topic is gaining a considerable interest in many fields~\cite{schopfel2010literature,stempfhuber2008enhancing}, including software-related fields~\cite{GarousiFM16}.
+
+For the scope of this study, and in an effort to maximize its validity, we followed a systematic approach based on the guidelines provided by Petersen et al.~\cite{sms-petersen} for conducting systematic literature reviews in software engineering. 
+We hereby outline such a systematic approach,  starting from problem definition and describing the triangulation as well as other inter-rater reliability assessment trials we ran to enforce the validity of our findings.
+
+Grey literature studies can typically be identified by exploiting search strings on search engines, with Google being the most prominent example.
+Following the guidelines provided by Petersen et al.~\cite{sms-petersen}, we identified the search string by structuring them guided by our research questions.
+More precisely, we defined the search strings based on the PICO terms of our question~\cite{kitchenham-charters}, by exploiting only the terms {\em Population} and {\em Intervention}.
+The keywords %for our search 
+were taken from each aspect of a research question. More specifically, the following search query was used:
+%Differently from Petersen et al.~\cite{sms-petersen}
+%, we did not restrict our focus to specific outcomes or experimental designs in our study, as we wished to have a broader overview of the industrial state-of-practice on microservices.
+%By restricting ourselves to certain types of studies, we could have obtained a biased/incomplete analysis, as some sub-topics might have been over-/under-represented for certain types of study.
+%The above explained difference is also reflected by the strings we employed for searching for the pains of microservices, viz.,
+\\
+\hspace*{\fill}
+$
+(\texttt{cyber*} \vee \texttt{online*}) \wedge (\texttt{threat*} \vee \texttt{attack*} \vee \texttt{activity*} \vee \texttt{crime*}) \wedge (\texttt{Surface*} \vee \texttt{D*})
+$
+\hspace*{\fill}
+\\
+
+In the above, the "$\texttt{*}$" symbol is the star wildcard which matches lexically-related terms (e.g.,~plurals, verb conjugations).
+
+We exploited the above indicated search strings to look for industrial, government, and non-governmental studies (e.g.,~blog posts, whitepapers, industry-oriented magazines) that were published since the beginning of the internet until the mid of 2018. 
+The search engines we employed are Google (primary), Bing, Duck Duck Go, Yahoo! and Webopedia.  Since engines look for the above indicated search strings over the whole pages they index, our search resulted in a high number of irrelevant studies, which were further refined with a secondary search and manual screening, based on the inclusion/exclusion criteria and control factors discussed in the following section. 
+
+Similarly, to cover for white literature appropriately, we run the aforementioned query in typical and most common computing literature liberaries, namely: (1) ACM Digital Library; (2) IEEEXplore; (3) Wiley Interscience; (3) Elsevier Scopus; (4) Bibsonomy.
+
+\subsection{Sample Selection \& Control Factors}
+\label{sec:control-framework}
+Table~\ref{tab:criteria} outlines the inclusion and exclusion criteria adopted in our sample selection.
+%
+% \begin{table}
+% \caption{Inclusion/Exclusion criteria - an outline.}\label{criteria}
+% \small
+% \begin{tabular}{|>{\centering}p{2cm}|>{\centering}p{11,2cm}|}
+% \hline 
+%  & The study discusses the industrial application of microservices.\tabularnewline
+% \cline{2-2} 
+%  & The study discusses the benefits or shortcomings of microservice
+% design and/or operation.\tabularnewline
+% \cline{2-2} 
+% Inclusion Criteria & The study reports on industrial direct experiences, educated practitioner
+% opinions or otherwise practice around microservices.\tabularnewline
+% \cline{2-2} 
+%  & The study captures a practical case-study of microservices design
+% and/or operation.\tabularnewline
+% \cline{2-2} 
+%  & The study describes business insights or losses connected to the
+% use of microservices.\tabularnewline
+% \hline 
+%  & The study does not offer implementation details.\tabularnewline
+% \cline{2-2} 
+%  & The study does not offer design details.\tabularnewline
+% \cline{2-2} 
+% Exclusion Criteria & The study is not referred to industrial cases or other factual evidence.\tabularnewline
+% \cline{2-2} 
+%  & The study claimed benefits or pitfalls are not quantifiable.\tabularnewline
+% \cline{2-2} 
+%  & The study does not offer scope and limitations of proposed solutions,
+% frameworks, patterns, tools.\tabularnewline
+% \cline{2-2} 
+%  & The study does not offer evidence of a practitioner perspective.\tabularnewline
+% \hline 
+% \end{tabular}
+% \end{table}
+%
+\begin{table}[t]
+\centering
+\footnotesize
+\begin{tabular}{p{0.1\textwidth}p{0.8\textwidth}}
+\hline
+	{\bf Case}
+	&
+    {\bf Criteria}
+    \\
+\hline
+\rowcolor[HTML]{EFEFEF} 
+	Inclusion 
+    & 
+	$\mathsf{i}_1$) The study discusses cybercrime or an application of analysis to the topic.\newline
+	$\mathsf{i}_2$) The study discusses the ramifications and challenges around the topics close to our RQs.\newline
+	$\mathsf{i}_3$) The study reports on direct experiences, opinions or practices on said topics by educated practitioners.\newline
+	$\mathsf{i}_4$) The study refers to a practical case-study of design, development or operation of cybercrime threat intelligence approaches.
+    \\
+ 	Exclusion 
+    &
+    $\mathsf{e}_1$) The study does not offer details on design or implementation of practices, methods, tools or indicators for cybercrime threat intelligence.\newline
+	$\mathsf{e}_2$) The study is not referred to industrial cases or other factual evidence.\newline 
+    $\mathsf{e}_3$) The benefits or pitfalls of discussed topics are not justified/quantified by the study.\newline
+    $\mathsf{e}_4$) The study does not offer scope and limitations of proposed solutions, frameworks, patterns, tools.\newline 
+    $\mathsf{e}_5$)The study does not offer evidence of a practitioner perspective.
+ \\
+\hline
+\end{tabular}
+\caption{Inclusion and exclusion criteria for sample selection.}
+\label{tab:criteria}
+\label{criteria}
+\end{table}
+%
+The inclusion criteria ($\mathsf{i}_1 - \mathsf{i}_4$) were designed to focus explicitly on the kind of practical grey literature that identifies the targets of our study.
+At the same time, the exclusion criteria permit disqualifying studies that do not offer the necessary design/implementation details ($\mathsf{e}_1$), that refer to nonfactual or unquantifiable evidence ($\mathsf{e}_2$ and $\mathsf{e}_3$), and that do not discuss the limitations and practical impact for the proposed solutions or outlined issues ($\mathsf{e}_4$ and $\mathsf{e}_5$). 
+A study is to be selected if it satisfies {\em all} the inclusion criteria, while it is to be excluded if it satisfies at lease one of the exclusion criteria. % excluded articles It should be noted that articles in our sample reflect *all* the inclusion criteria, while excluded articles needed satisfy at least one of the exclusion criteria to warrant disqualification.
+
+In addition to the inclusion/exclusion criteria in Table~\ref{criteria}, to ensure the quality of the selected grey literature, we selected only those industrial studies that were satisfying the following control factors:
+\begin{enumerate}
+\item \textbf{Practical Experience.} A study is to be selected only if it is written by practitioners with 5+ experience in the topic in object, or if it refers to established threat intelligence solutions with 2+ years of operation.
+\item \textbf{Industrial Case-Study.} A study is to be selected only if it refers to at least 1 industrial case-study where a quantifiable number of threat intelligence tools are operated.
+\item \textbf{Heterogeneity.} The selected studies reflect at least 5 top industrial domains and markets where threat intelligence tools were successfully applied.
+\item \textbf{Implementation Quantity.} The selected studies refer to/show implementation details for the benefits and pitfall they discuss, so that other researchers and practitioners can use them in action.
+\end{enumerate}
+
+%\comment{JS}{We should mention (in this section?) which papers we identified (by pointing to the papers \s{1}-\s{37} listed in the Appendix \ref{sec:grey-literature})}
+
+At the end of our screening, 374 studies were selected based on the inclusion/exclusion criteria and on the additional control factors. 
+The complete list of selected studies is provided online~\footnote{\url{https://tinyurl.com/ANITAstudysourcesMSLR}}.
+
+\subsection{Analysis Approach \& Inter-Rater Reliability Assessment}\label{sec:inter-rater-assessment}
+
+To attain the findings we adopted a mixed-methods analysis approach \cite{JohOnw04}. 
+
+\subsubsection{Thematic Coding}
+
+To address SRQs 1-3 and 5-6, we adopted thematic coding~\cite{Bas03} to elicit a baseline understanding of the state of the art. More specifically, The selected sample of articles were subject to annotation and labeling with the goal of identifying themes emerging from the analyzed text. 
+This process of analysis was executed in parallel over two 50\% splits of the entire dataset, to ensure avoidance of observer bias. 
+The coders of the two splits (viz.,~the first two authors of this study) were then inverted and an inter-rater evaluation was enacted between the two emerging lists of themes. To evaluate inter-rater reliability, we adopted the widely known and adopted Krippendorff $\alpha$ coefficient (or K$\alpha$), which measures the agreement between two ordered lists of codes applied as part of content analysis \cite{content}. As part of our evaluation, K$\alpha$ was applied twice. 
+\begin{itemize}
+\item We applied the evaluation coefficient to measure the agreement between the two emerging lists of codes by the two independent observers who individually coded 100\% of the dataset in 2 rounds.
+The result of applying K$\alpha$ to measure the agreement between these two lists amounted to 0.71, slightly lower than the typical reference score of 0.80 (i.e., 80\% agreement). A discussion and analysis of disagreement points revealed misalignment between the depth of the coding strategy, which was subsequently addressed; this modification brought the agreement between the emerging lists of codes to K$\alpha$ = 0.83.
+\item K$\alpha$ was them applied again to triangulate the 0.83 score for the final list of themes with its identical counterpart, coded by the third author of this paper, who re-coded the entire dataset with the final coding strategy. The agreement between the final list A (obtained by the first 2 authors) and a final list B (obtained by the third author) was evaluated to K$\alpha$ = 0.93.
+\end{itemize}
+
+\subsubsection{Topic Modelling}
+
+To address SRQ4, we operated a machine-assisted topic modelling and analysis exercise supported with a thematic coding. More specifically, we used Latent Dirichlet Allocation (LDA) to provide emerging themes in our textual data, subsequently labelling the emerging themes which are visible and observable characteristics of potential online sources for criminal activity (e.g., darknet websites). The application of LDA was carried out after standard text-mining pre-processing aimed at improving results by removing unnecessary information. Specifically: (1) all terms and definitions for the factors were standardised in terms of structure (i.e., definition + sample text extracted from reference papers); (2) punctuation marks and numbers were  removed; (3) all letters were converted to lower case; (4) all common stop words for English grammar and syntax were  removed.
+
+For the afore-mentioned topic modelling exercise, we selected log-likelihood as our measure of clustering quality, following typical approaches from the state of the art \cite{AgrawalFM16}. In our case, however, the number of clusters started from typically used numbers adopted in the state of the art (k = 10 clusters) but the number was increased until at least one of the newly-emerging clusters contained less than half of the mean population of factors in the previous round. This approach was aimed at allowing the extraction of cybercrime activities and indicators that were meaningful, i.e., they reflected semantic commonalities among factors. In addition, We used the genetic algorithm Differential Evolution to tune LDA hyperparameters alpha and beta as suggested by Agrawal et al. \cite{AgrawalFM16}. To conduct all the above pre-processing and analyses we exploited the NetCulator bibliometric analytics tool\footnote{\url{https://www.netculator.com/}} which supports LDA and a number of similar natural-language analyses and clustering techniques and tools of our own design, featuring Python and the python LDA package.
+
+%\subsection{Analysis Methods}
