@@ -37,13 +37,6 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{??}{pir}{[n. d.]}]%
-        {piracy}
- \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Agrawal, Fu, and Menzies}{Agrawal
   et~al\mbox{.}}{2016}]%
         {AgrawalFM16}
@@ -696,6 +689,20 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Team}{Team}{2017}]%
+        {piracy}
+\bibfield{author}{\bibinfo{person}{Microsoft Philippines~PR Team}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{NUS Study: Cybercriminals Exploit Pirated Software to
+  Fuel Malware Infections in Asia Pacific}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2BvsviK}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Techopedia}{Techopedia}{2019}]%
         {techopedia}
 \bibfield{author}{\bibinfo{person}{Techopedia}.}
@@ -734,7 +741,7 @@
   Rais}.} \bibinfo{year}{2018}\natexlab{}.
 \newblock \showarticletitle{A survey on technical threat intelligence in the
   age of sophisticated cyber attacks.}
-\newblock \bibinfo{journal}{\emph{Computers & Security}}  \bibinfo{volume}{72}
+\newblock \bibinfo{journal}{\emph{Computers \& Security}}  \bibinfo{volume}{72}
   (\bibinfo{year}{2018}), \bibinfo{pages}{212--233}.
 \newblock
 \urldef\tempurl%

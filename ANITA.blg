@@ -5,112 +5,83 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: newbib.bib
-Repeated entry---line 3289 of file newbib.bib
- : @incollection{Zave03
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3304 of file newbib.bib
- : @article{mv
- :            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3444 of file newbib.bib
- : @inproceedings{Xu:2013:CDM:2435349.2435366
- :                                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3745 of file newbib.bib
- : @article{Toch:2018:PIC:3186333.3172869
- :                                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3766 of file newbib.bib
- : @misc{kaspersky
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3781 of file newbib.bib
- : @misc{norton
- :             ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3834 of file newbib.bib
- :  
- :  title = {NUS Study: Cybercriminals Exploit Pirated Software to Fuel Malware Infections in Asia Pacific},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 3840 of file newbib.bib
+Repeated entry---line 3755 of file newbib.bib
  : @article{ChangVWL13
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12812 of file newbib.bib
+Repeated entry---line 12727 of file newbib.bib
  : @inproceedings{VidalC17
  :                        ,
 I'm skipping whatever remains of this entry
-"}" immediately follows an entry type---line 12816 of file newbib.bib
+"}" immediately follows an entry type---line 12731 of file newbib.bib
  :   booktitle = {ATCS/SePrIoT@SecureComm
  :                                       },
 I'm skipping whatever remains of this entry
-Repeated entry---line 12834 of file newbib.bib
+Repeated entry---line 12749 of file newbib.bib
  : @article{abs-1201-0949
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12850 of file newbib.bib
+Repeated entry---line 12765 of file newbib.bib
  : @article{ORiordanFN16
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12869 of file newbib.bib
+Repeated entry---line 12784 of file newbib.bib
  : @article{MaLPLWZL18
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12887 of file newbib.bib
+Repeated entry---line 12802 of file newbib.bib
  : @book{Green1989
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12905 of file newbib.bib
+Repeated entry---line 12820 of file newbib.bib
  : @inproceedings{Blackwell2009
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12929 of file newbib.bib
+Repeated entry---line 12844 of file newbib.bib
  : @inproceedings{abrielSBSGM17
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12946 of file newbib.bib
+Repeated entry---line 12861 of file newbib.bib
  : @article{HarelGery1997
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12964 of file newbib.bib
+Repeated entry---line 12879 of file newbib.bib
  : @inproceedings{BouyahiaICCA14
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12986 of file newbib.bib
+Repeated entry---line 12901 of file newbib.bib
  : @inproceedings{BeckersKY14
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13007 of file newbib.bib
+Repeated entry---line 12922 of file newbib.bib
  : @proceedings{2014-8872
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13025 of file newbib.bib
+Repeated entry---line 12940 of file newbib.bib
  : @article{MataraciogluOH15
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13040 of file newbib.bib
+Repeated entry---line 12955 of file newbib.bib
  : @inproceedings{Hoofnagle2013
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13054 of file newbib.bib
+Repeated entry---line 12969 of file newbib.bib
  : @article{Chen2004c
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13071 of file newbib.bib
+Repeated entry---line 12986 of file newbib.bib
  : @article{TounsiR18
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13087 of file newbib.bib
+Repeated entry---line 13002 of file newbib.bib
  : @inproceedings{SolanoP17
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13277 of file newbib.bib
+Repeated entry---line 13192 of file newbib.bib
  : @article{JohOnw04
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13296 of file newbib.bib
+Repeated entry---line 13211 of file newbib.bib
  : @inproceedings{GarousiFM16
  :                           ,
 I'm skipping whatever remains of this entry
@@ -138,19 +109,10 @@ Warning--I didn't find a database entry for "conf/cybersa/2017"
 Warning--I didn't find a database entry for "conf/ease/2016"
 Warning--I didn't find a database entry for "conf/leet/2010"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in piracy
-Warning--no author, editor, organization, or key in piracy
-Warning--to sort, need author or key in piracy
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--no key, author in piracy
-Warning--no key, author in piracy
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in piracy
-Warning--no author, editor, organization, or key in piracy
-Warning--empty author in piracy
-Warning--empty year in piracy
 Warning--page numbers missing in both pages and numpages fields in AgrawalFM16
 Warning--empty address in ApececheaES15
 Warning--empty address in BeckersKY14
@@ -188,43 +150,43 @@ Warning--page numbers missing in both pages and numpages fields in stempfhuber20
 Warning--empty address in VidalC17
 You've used 48 entries,
             5719 wiz_defined-function locations,
-            1652 strings with 26420 characters,
-and the built_in function-call counts, 56511 in all, are:
-= -- 6943
-> -- 2139
+            1655 strings with 26565 characters,
+and the built_in function-call counts, 56662 in all, are:
+= -- 6985
+> -- 2159
 < -- 1
-+ -- 708
-- -- 736
-* -- 4200
-:= -- 5752
-add.period$ -- 240
++ -- 712
+- -- 744
+* -- 4201
+:= -- 5801
+add.period$ -- 242
 call.type$ -- 48
-change.case$ -- 335
+change.case$ -- 336
 chr.to.int$ -- 48
-cite$ -- 96
+cite$ -- 83
 duplicate$ -- 4945
-empty$ -- 3482
-format.name$ -- 880
-if$ -- 13518
+empty$ -- 3477
+format.name$ -- 888
+if$ -- 13525
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 177
-newline$ -- 542
-num.names$ -- 390
-pop$ -- 1872
+newline$ -- 547
+num.names$ -- 398
+pop$ -- 1827
 preamble$ -- 1
-purify$ -- 760
+purify$ -- 767
 quote$ -- 0
-skip$ -- 1715
+skip$ -- 1726
 stack$ -- 0
-substring$ -- 3945
+substring$ -- 3980
 swap$ -- 479
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1153
-warning$ -- 44
-while$ -- 337
+warning$ -- 35
+while$ -- 345
 width$ -- 0
-write$ -- 997
-(There were 35 error messages)
+write$ -- 1004
+(There were 28 error messages)

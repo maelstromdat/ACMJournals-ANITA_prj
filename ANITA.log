@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  11 FEB 2019 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  11 FEB 2019 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2268,13 +2268,6 @@ LaTeX Info: Redefining \tempurl on input line 664.
 LaTeX Info: Redefining \tempurl on input line 694.
 LaTeX Info: Redefining \tempurl on input line 707.
 LaTeX Info: Redefining \tempurl on input line 727.
-
-./ANITA.bbl:737: Misplaced alignment tab character &.
-<argument> Computers &
-                       Security
-l.737 ...nfo{journal}{\emph{Computers & Security}}
-                                                    \bibinfo{volume}{72}
-? 
 LaTeX Info: Redefining \tempurl on input line 741.
 LaTeX Info: Redefining \tempurl on input line 762.
 LaTeX Info: Redefining \tempurl on input line 781.
@@ -2324,7 +2317,7 @@ TBI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txs
 y.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on ANITA.pdf (20 pages, 1292026 bytes).
+Output written on ANITA.pdf (20 pages, 1292028 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  622 compressed objects within 7 object streams
