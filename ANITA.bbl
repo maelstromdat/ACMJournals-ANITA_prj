@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{48}
+\begin{thebibliography}{64}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,19 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Garc{\'i}a-Alfaro, Herrera-Joancomart{\'i},
+  Lupu, Posegga, Aldini, Martinelli, and Suri}{201}{2015}]%
+        {2014-8872}
+ \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Data Privacy Management, Autonomous
+  Spontaneous Security, and Security Assurance - 9th International Workshop,
+  DPM 2014, 7th International Workshop, SETOP 2014, and 3rd International
+  Workshop, QASA 2014, Wroclaw, Poland, September 10-11, 2014. Revised Selected
+  Papers}}. \bibinfo{series}{Lecture Notes in Computer Science},
+  Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Agrawal, Fu, and Menzies}{Agrawal
   et~al\mbox{.}}{2016}]%
         {AgrawalFM16}
@@ -48,7 +61,7 @@
   (\bibinfo{year}{2016}).
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/corr/corr1608.html#AgrawalFM16}
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1608.html\#AgrawalFM16}
 \showURL{%
 \tempurl}
 
@@ -78,7 +91,7 @@
   \bibinfo{pages}{50--56}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp5.html#BaerP07}
+\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp5.html\#BaerP07}
 \showURL{%
 \tempurl}
 
@@ -92,8 +105,8 @@
 \newblock \showarticletitle{Analysis of Social Engineering Threats with Attack
   Graphs.}. In \bibinfo{booktitle}{\emph{DPM/SETOP/QASA}}
   \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
-  \bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
-  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
+  \bibfield{editor}{\bibinfo{person}{Joaqu{\'i}n Garc{\'i}a-Alfaro},
+  \bibinfo{person}{Jordi Herrera-Joancomart{\'i}}, \bibinfo{person}{Emil Lupu},
   \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
   \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
   (Eds.), Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer},
@@ -101,7 +114,22 @@
 \newblock
 \showISBNx{978-3-319-17015-2}
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html#BeckersKY14}
+\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html\#BeckersKY14}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bilge and Dumitras}{Bilge and
+  Dumitras}{2013}]%
+        {BilgeD13}
+\bibfield{author}{\bibinfo{person}{Leyla Bilge} {and} \bibinfo{person}{Tudor
+  Dumitras}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Investigating Zero-Day Attacks.}
+\newblock \bibinfo{journal}{\emph{;login:}} \bibinfo{volume}{38},
+  \bibinfo{number}{4} (\bibinfo{year}{2013}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/usenix-login/usenix-login38.html#BilgeD13}
 \showURL{%
 \tempurl}
 
@@ -130,13 +158,13 @@
         {BouyahiaICCA14}
 \bibfield{author}{\bibinfo{person}{Tarek Bouyahia},
   \bibinfo{person}{Muhammad~Sabir Idrees}, \bibinfo{person}{Nora
-  Cuppens-Boulahia}, \bibinfo{person}{Frédéric Cuppens}, {and}
+  Cuppens-Boulahia}, \bibinfo{person}{Fr{\'e}d{\'e}ric Cuppens}, {and}
   \bibinfo{person}{Fabien Autrel}.} \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Metric for Security Activities Assisted by
   Argumentative Logic.}. In \bibinfo{booktitle}{\emph{DPM/SETOP/QASA}}
   \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
-  \bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
-  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
+  \bibfield{editor}{\bibinfo{person}{Joaqu{\'i}n Garc{\'i}a-Alfaro},
+  \bibinfo{person}{Jordi Herrera-Joancomart{\'i}}, \bibinfo{person}{Emil Lupu},
   \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
   \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
   (Eds.), Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer},
@@ -144,7 +172,7 @@
 \newblock
 \showISBNx{978-3-319-17015-2}
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html#BouyahiaICCA14}
+\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html\#BouyahiaICCA14}
 \showURL{%
 \tempurl}
 
@@ -161,6 +189,20 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Caballero}{Caballero}{2012}]%
+        {Caballero12}
+\bibfield{author}{\bibinfo{person}{Juan Caballero}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Understanding the Role of Malware in Cybercrime.}
+\newblock \bibinfo{journal}{\emph{ERCIM News}} \bibinfo{volume}{2012},
+  \bibinfo{number}{90} (\bibinfo{year}{2012}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ercim/ercim2012.html#Caballero12}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Chang, Venkatasubramanian, West, and
   Lee}{Chang et~al\mbox{.}}{2013}]%
         {ChangVWL13}
@@ -172,7 +214,7 @@
   \bibinfo{number}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{49:1--49:35}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/csur/csur45.html#ChangVWL13}
+\url{http://dblp.uni-trier.de/db/journals/csur/csur45.html\#ChangVWL13}
 \showURL{%
 \tempurl}
 
@@ -188,7 +230,7 @@
   \bibinfo{pages}{438--458}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/imds/imds107.html#ChangL07}
+\url{http://dblp.uni-trier.de/db/journals/imds/imds107.html\#ChangL07}
 \showURL{%
 \tempurl}
 
@@ -242,6 +284,18 @@
 \showISBNx{978-1-4799-3530-7}
 
 
+\bibitem[\protect\citeauthoryear{Corbin and Strauss}{Corbin and
+  Strauss}{1990}]%
+        {gt}
+\bibfield{author}{\bibinfo{person}{Juliet Corbin} {and} \bibinfo{person}{Anselm
+  Strauss}.} \bibinfo{year}{1990}\natexlab{}.
+\newblock \showarticletitle{Grounded Theory Research: Procedures, Canons, and
+  Evaluative Criteria}.
+\newblock \bibinfo{journal}{\emph{Qualitative Sociology}} \bibinfo{volume}{13},
+  \bibinfo{number}{1} (\bibinfo{year}{1990}), \bibinfo{pages}{3--21}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{daily}{daily}{2018}]%
         {kaspersky}
 \bibfield{author}{\bibinfo{person}{Kaspersky~Lab daily}.}
@@ -251,6 +305,22 @@
 \newblock
 \urldef\tempurl%
 \url{https://bit.ly/2Vd2xca}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Danforth}{Danforth}{2011}]%
+        {Danforth11}
+\bibfield{author}{\bibinfo{person}{Melissa Danforth}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{WCIS: A Prototype for Detecting Zero-Day Attacks in
+  Web Server Requests.}. In \bibinfo{booktitle}{\emph{LISA}},
+  \bibfield{editor}{\bibinfo{person}{Thomas~A. Limoncelli} {and}
+  \bibinfo{person}{Doug Hughes}} (Eds.). \bibinfo{publisher}{USENIX
+  Association}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/lisa/lisa2011.html#Danforth11}
 \showURL{%
 \tempurl}
 
@@ -280,6 +350,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Franklin}{Franklin}{2018}]%
+        {franklin}
+\bibfield{author}{\bibinfo{person}{Nilesh Bhingardeve~Seeza Franklin}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A Comparison Study of Open Source Penetration
+  Testing Tools}.
+\newblock \bibinfo{journal}{\emph{International Journal of Trend in Scientific
+  Research and Development}} \bibinfo{volume}{2}, \bibinfo{number}{4}
+  (\bibinfo{date}{June} \bibinfo{year}{2018}), \bibinfo{pages}{2595--2597}.
+\newblock
+\showISSN{2456-6470}
+\urldef\tempurl%
+\url{http://www.ijtsrd.com/computer-science/computer-security/15662/a-comparison-study-of-open-source-penetration-testing-tools/nilesh-bhingardeve}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Gabriel, Schleiner, Brauner, Steyer,
   Gellenbeck, and Mudimu}{Gabriel et~al\mbox{.}}{2017}]%
         {abrielSBSGM17}
@@ -295,29 +382,7 @@
   Montarnal}} (Eds.). \bibinfo{publisher}{ISCRAM Association}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/conf/iscram/iscram2017.html#GabrielSBSGM17}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{García-Alfaro, Herrera-Joancomartí, Lupu,
-  Posegga, Aldini, Martinelli, and Suri}{García-Alfaro et~al\mbox{.}}{2015}]%
-        {2014-8872}
-\bibfield{editor}{\bibinfo{person}{Joaquín García-Alfaro},
-  \bibinfo{person}{Jordi Herrera-Joancomartí}, \bibinfo{person}{Emil Lupu},
-  \bibinfo{person}{Joachim Posegga}, \bibinfo{person}{Alessandro Aldini},
-  \bibinfo{person}{Fabio Martinelli}, {and} \bibinfo{person}{Neeraj Suri}}
-  (Eds.). \bibinfo{year}{2015}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Data Privacy Management, Autonomous
-  Spontaneous Security, and Security Assurance - 9th International Workshop,
-  DPM 2014, 7th International Workshop, SETOP 2014, and 3rd International
-  Workshop, QASA 2014, Wroclaw, Poland, September 10-11, 2014. Revised Selected
-  Papers}}. \bibinfo{series}{Lecture Notes in Computer Science},
-  Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer}.
-\newblock
-\showISBNx{978-3-319-17015-2}
-\urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html}
+\url{http://dblp.uni-trier.de/db/conf/iscram/iscram2017.html\#GabrielSBSGM17}
 \showURL{%
 \tempurl}
 
@@ -339,11 +404,11 @@
 \tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Garousi, Felderer, and Mäntylä}{Garousi
+\bibitem[\protect\citeauthoryear{Garousi, Felderer, and Mäntyl{\"a}}{Garousi
   et~al\mbox{.}}{2016}]%
         {GarousiFM16}
 \bibfield{author}{\bibinfo{person}{Vahid Garousi}, \bibinfo{person}{Michael
-  Felderer}, {and} \bibinfo{person}{Mika~V. Mäntylä}.}
+  Felderer}, {and} \bibinfo{person}{Mika~V. Mäntyl{\"a}}.}
   \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{The need for multivocal literature reviews in
   software engineering: complementing systematic literature reviews with grey
@@ -371,10 +436,25 @@
 \tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Gharibi}{Gharibi}{2012}]%
+\bibitem[\protect\citeauthoryear{Gharibi}{Gharibi}{2012a}]%
         {abs-1201-0949}
 \bibfield{author}{\bibinfo{person}{Wajeb Gharibi}.}
-  \bibinfo{year}{2012}\natexlab{}.
+  \bibinfo{year}{2012}\natexlab{a}.
+\newblock \showarticletitle{Some Recommended Protection Technologies for Cyber
+  Crime Based on Social Engineering Techniques -- Phishing}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1201.0949}
+  (\bibinfo{year}{2012}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1201.html\#abs-1201-0949}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gharibi}{Gharibi}{2012b}]%
+        {Gharibi}
+\bibfield{author}{\bibinfo{person}{Wajeb Gharibi}.}
+  \bibinfo{year}{2012}\natexlab{b}.
 \newblock \showarticletitle{Some Recommended Protection Technologies for Cyber
   Crime Based on Social Engineering Techniques -- Phishing}.
 \newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1201.0949}
@@ -400,6 +480,32 @@
 \url{http://www.amazon.com/Signal-Detection-Theory-Psychophysics-Marvin/dp/0932146236}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gupta and Rani}{Gupta and Rani}{2018}]%
+        {GuptaR18}
+\bibfield{author}{\bibinfo{person}{Deepak Gupta} {and} \bibinfo{person}{Rinkle
+  Rani}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Big Data Framework for Zero-Day Malware Detection.}
+\newblock \bibinfo{journal}{\emph{Cybernetics and Systems}}
+  \bibinfo{volume}{49}, \bibinfo{number}{2} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{103--121}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/cas/cas49.html#GuptaR18}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Haig}{Haig}{1995}]%
+        {gtmeth}
+\bibfield{author}{\bibinfo{person}{B.D. Haig}.}
+  \bibinfo{year}{1995}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Grounded {t}heory as {s}cientific {m}ethod.
+  {P}hilosophy of {e}ducation (on-line)}}.
+\newblock
+\newblock
+\shownote{Retrieved on March 2011.}
 
 
 \bibitem[\protect\citeauthoryear{Harel and Gery}{Harel and Gery}{1997}]%
@@ -440,6 +546,39 @@
 \showeprint{http://edr.sagepub.com/content/33/7/14.full.pdf+html}
 
 
+\bibitem[\protect\citeauthoryear{Khan}{Khan}{2006}]%
+        {KhanIJKBIES}
+\bibfield{author}{\bibinfo{person}{Asifullah Khan}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{A novel approach to decoding: Exploiting
+  anticipated attack information using genetic programming}.
+\newblock \bibinfo{journal}{\emph{International Journal of Knowledge-Based and
+  Intelligent Engineering Systems}} \bibinfo{volume}{10}, \bibinfo{number}{5}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{337--346}.
+\newblock
+\showISSN{1327-2314}
+\urldef\tempurl%
+\url{http://iospress.metapress.com/openurl.asp?genre=article&issn=1327-2314&volume=10&issue=5&spage=337}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kieseberg, Segou, and Roli}{Kieseberg
+  et~al\mbox{.}}{2015}]%
+        {KiesebergSR15}
+\bibfield{author}{\bibinfo{person}{Peter Kieseberg}, \bibinfo{person}{Olga~E.
+  Segou}, {and} \bibinfo{person}{Fabio Roli}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{CyberROAD: Developing a Roadmap for Research in
+  Cybercrime and Cyberterrorism.}
+\newblock \bibinfo{journal}{\emph{ERCIM News}} \bibinfo{volume}{2015},
+  \bibinfo{number}{102} (\bibinfo{year}{2015}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ercim/ercim2015.html#KiesebergSR15}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Kitchenham and Charters}{Kitchenham and
   Charters}{2007}]%
         {kitchenham-charters}
@@ -460,7 +599,7 @@
   \bibinfo{person}{J. Bailey}, {and} \bibinfo{person}{S. Linkman}.}
   \bibinfo{year}{2008}\natexlab{}.
 \newblock \showarticletitle{Systematic literature reviews in software
-  engineering Ð A systematic literature review}.
+  engineering - A systematic literature review}.
 \newblock \bibinfo{journal}{\emph{Information and Software Technology}}
   (\bibinfo{date}{November} \bibinfo{year}{2008}).
 \newblock
@@ -492,9 +631,21 @@
   \bibinfo{publisher}{USENIX Association}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/conf/leet/leet2010.html#LauingerPBK10}
+\url{http://dblp.uni-trier.de/db/conf/leet/leet2010.html\#LauingerPBK10}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Li, Sanghi, Chavez, Chen, and Kao}{Li
+  et~al\mbox{.}}{2006}]%
+        {li06ieee}
+\bibfield{author}{\bibinfo{person}{Zhichun Li}, \bibinfo{person}{Manan Sanghi},
+  \bibinfo{person}{Brian Chavez}, \bibinfo{person}{Yan Chen}, {and}
+  \bibinfo{person}{Ming-Yang Kao}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Hamsa: Fast Signature Generation for Zero-day
+  Polymorphic Worms with Provable Attack Resilience}. In
+  \bibinfo{booktitle}{\emph{#IEEE06#}}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Ma, Sun, and Abraham}{Ma
@@ -524,7 +675,7 @@
   \bibinfo{pages}{1167--1178}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/vlsisp/vlsisp90.html#MaLPLWZL18}
+\url{http://dblp.uni-trier.de/db/journals/vlsisp/vlsisp90.html\#MaLPLWZL18}
 \showURL{%
 \tempurl}
 
@@ -541,16 +692,16 @@
   (\bibinfo{year}{2015}).
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/corr/corr1507.html#MataraciogluOH15}
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1507.html\#MataraciogluOH15}
 \showURL{%
 \tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Meland, Tøndel, and Solhaug}{Meland
+\bibitem[\protect\citeauthoryear{Meland, T~{\o}ndel, and Solhaug}{Meland
   et~al\mbox{.}}{2015}]%
         {MelandTS15}
-\bibfield{author}{\bibinfo{person}{Per~Håkon Meland},
-  \bibinfo{person}{Inger~Anne Tøndel}, {and} \bibinfo{person}{Bjørnar
+\bibfield{author}{\bibinfo{person}{Per~H{\aa}kon Meland},
+  \bibinfo{person}{Inger~Anne T~{\o}ndel}, {and} \bibinfo{person}{Bj~{\o}rnar
   Solhaug}.} \bibinfo{year}{2015}\natexlab{}.
 \newblock \showarticletitle{Mitigating Risk with Cyberinsurance.}
 \newblock \bibinfo{journal}{\emph{IEEE Security \& Privacy}}
@@ -558,7 +709,26 @@
   \bibinfo{pages}{38--43}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp13.html#MelandTS15}
+\url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp13.html\#MelandTS15}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nord, Ozkaya, Schwartz, Shull, and
+  Kazman}{Nord et~al\mbox{.}}{2016}]%
+        {NordOSSK16}
+\bibfield{author}{\bibinfo{person}{Robert~L. Nord}, \bibinfo{person}{Ipek
+  Ozkaya}, \bibinfo{person}{Edward~J. Schwartz}, \bibinfo{person}{Forrest
+  Shull}, {and} \bibinfo{person}{Rick Kazman}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Can Knowledge of Technical Debt Help Identify
+  Software Vulnerabilities?}. In \bibinfo{booktitle}{\emph{CSET @ USENIX
+  Security Symposium}}, \bibfield{editor}{\bibinfo{person}{Eric Eide} {and}
+  \bibinfo{person}{Mathias Payer}} (Eds.). \bibinfo{publisher}{USENIX
+  Association}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/uss/cset2016.html#NordOSSK16}
 \showURL{%
 \tempurl}
 
@@ -576,7 +746,27 @@
   \bibinfo{pages}{244--262}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/jds/jds25.html#ORiordanFN16}
+\url{http://dblp.uni-trier.de/db/journals/jds/jds25.html\#ORiordanFN16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Park, Cho, and Kwon}{Park
+  et~al\mbox{.}}{2009}]%
+        {ParkCK09}
+\bibfield{author}{\bibinfo{person}{Heum Park}, \bibinfo{person}{SunHo Cho},
+  {and} \bibinfo{person}{Hyuk-Chul Kwon}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Cyber Forensics Ontology for Cyber Criminal
+  Investigation.}. In \bibinfo{booktitle}{\emph{e-Forensics}}
+  \emph{(\bibinfo{series}{Lecture Notes of the Institute for Computer Sciences,
+  Social Informatics and Telecommunications Engineering})},
+  \bibfield{editor}{\bibinfo{person}{Matthew Sorell}} (Ed.),
+  Vol.~\bibinfo{volume}{8}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{160--165}.
+\newblock
+\showISBNx{978-3-642-02311-8}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/eforensics/eforensics2009.html#ParkCK09}
 \showURL{%
 \tempurl}
 
@@ -595,6 +785,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Rahul and Sujata}{Rahul and Sujata}{2018}]%
+        {Rahul}
+\bibfield{author}{\bibinfo{person}{Rahul} {and} \bibinfo{person}{Sujata}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{HOST PROTECTION USING PROCESS
+  WHITE-LISTING,DECEPTION AND REPUTATION SERVICES}.
+\newblock \bibinfo{journal}{\emph{IJIRIS:: International Journal of Innovative
+  Research in Information Security}} \bibinfo{volume}{Volume V},
+  \bibinfo{number}{Issue II} (\bibinfo{date}{February 18}
+  \bibinfo{year}{2018}), \bibinfo{pages}{01--12}.
+\newblock
+\showISSN{2349-7017}
+\urldef\tempurl%
+\url{https://doi.org/://10.26562/IJIRIS.2018.FBIS10080}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Ring, Wunderlich, Grüdl, Landes, and
   Hotho}{Ring et~al\mbox{.}}{2017}]%
         {ring2017data}
@@ -608,6 +815,23 @@
   \bibinfo{publisher}{ACPI}, \bibinfo{pages}{361--369}.
 \newblock
 \showISBNx{1911218433}
+
+
+\bibitem[\protect\citeauthoryear{Schreiber and Carley}{Schreiber and
+  Carley}{2004}]%
+        {gtval}
+\bibfield{author}{\bibinfo{person}{Craig Schreiber} {and}
+  \bibinfo{person}{Kathleen~M. Carley}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Going Beyond the Data: Empirical Validation Leading
+  to Grounded Theory.}
+\newblock \bibinfo{journal}{\emph{Computational \& Mathematical Organization
+  Theory}} \bibinfo{volume}{10}, \bibinfo{number}{2} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{155--164}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/cmot/cmot10.html#SchreiberC04}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Scott-Hayward, O'Callaghan, and
@@ -684,21 +908,7 @@
   \bibinfo{pages}{179--186}.
 \newblock
 \urldef\tempurl%
-\url{http://dblp.uni-trier.de/db/journals/itm/itm17.html#TangLZ16}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Team}{Team}{2017}]%
-        {piracy}
-\bibfield{author}{\bibinfo{person}{Microsoft Philippines~PR Team}.}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \bibinfo{title}{NUS Study: Cybercriminals Exploit Pirated Software to
-  Fuel Malware Infections in Asia Pacific}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://bit.ly/2BvsviK}
+\url{http://dblp.uni-trier.de/db/journals/itm/itm17.html\#TangLZ16}
 \showURL{%
 \tempurl}
 
@@ -750,6 +960,25 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{van Niekerk and Roode}{van Niekerk and
+  Roode}{2009}]%
+        {straussian}
+\bibfield{author}{\bibinfo{person}{Johanna~C. van Niekerk} {and}
+  \bibinfo{person}{J.~D. Roode}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Glaserian and Straussian grounded theory: similar
+  or completely different?}. In \bibinfo{booktitle}{\emph{SAICSIT Conf.}}
+  (2009-11-17) \emph{(\bibinfo{series}{ACM International Conference Proceeding
+  Series})}, \bibfield{editor}{\bibinfo{person}{Barry Dwolatzky},
+  \bibinfo{person}{Jason Cohen}, {and} \bibinfo{person}{Scott Hazelhurst}}
+  (Eds.). \bibinfo{publisher}{ACM}, \bibinfo{pages}{96--103}.
+\newblock
+\showISBNx{978-1-60558-643-4}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/saicsit/saicsit2009.html#NiekerkR09}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Vidal and Choo}{Vidal and Choo}{2017}]%
         {VidalC17}
 \bibfield{author}{\bibinfo{person}{Chaz Vidal} {and}
@@ -769,6 +998,21 @@
 \url{http://dblp.uni-trier.de/db/conf/securecomm/securecomm2017w.html#VidalC17}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell,
+  and Wessl{\'e}n}{Wohlin et~al\mbox{.}}{2000}]%
+        {wohlin}
+\bibfield{author}{\bibinfo{person}{Claes Wohlin}, \bibinfo{person}{Per
+  Runeson}, \bibinfo{person}{Martin H\"{o}st}, \bibinfo{person}{Magnus~C.
+  Ohlsson}, \bibinfo{person}{Bj\"{o}orn Regnell}, {and} \bibinfo{person}{Anders
+  Wessl{\'e}n}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Experimentation in software engineering: an
+  introduction}}.
+\newblock \bibinfo{publisher}{Kluwer Academic Publishers},
+  \bibinfo{address}{Norwell, MA, USA}.
+\newblock
+\showISBNx{0-7923-8682-5}
 
 
 \bibitem[\protect\citeauthoryear{Xu, Zhan, Xu, and Ye}{Xu

@@ -5,85 +5,97 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: newbib.bib
-Repeated entry---line 3755 of file newbib.bib
- : @article{ChangVWL13
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12727 of file newbib.bib
+Repeated entry---line 2860 of file newbib.bib
  : @inproceedings{VidalC17
  :                        ,
 I'm skipping whatever remains of this entry
-"}" immediately follows an entry type---line 12731 of file newbib.bib
+"}" immediately follows an entry type---line 2864 of file newbib.bib
  :   booktitle = {ATCS/SePrIoT@SecureComm
  :                                       },
 I'm skipping whatever remains of this entry
-Repeated entry---line 12749 of file newbib.bib
- : @article{abs-1201-0949
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12765 of file newbib.bib
- : @article{ORiordanFN16
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12784 of file newbib.bib
- : @article{MaLPLWZL18
+Repeated entry---line 3973 of file newbib.bib
+ : @article{ChangVWL13
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12802 of file newbib.bib
- : @book{Green1989
- :                ,
+Repeated entry---line 4057 of file newbib.bib
+ : @book{wohlin
+ :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12820 of file newbib.bib
- : @inproceedings{Blackwell2009
- :                             ,
+Repeated entry---line 7659 of file newbib.bib
+ : @book{wohlin
+ :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12844 of file newbib.bib
- : @inproceedings{abrielSBSGM17
- :                             ,
+Repeated entry---line 10233 of file newbib.bib
+ : @book{wohlin
+ :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12861 of file newbib.bib
- : @article{HarelGery1997
- :                       ,
+Repeated entry---line 10582 of file newbib.bib
+ : @article{gt
+ :            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12879 of file newbib.bib
- : @inproceedings{BouyahiaICCA14
- :                              ,
+Repeated entry---line 10596 of file newbib.bib
+ : @article{gtval
+ :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12901 of file newbib.bib
- : @inproceedings{BeckersKY14
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12922 of file newbib.bib
- : @proceedings{2014-8872
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12940 of file newbib.bib
- : @article{MataraciogluOH15
+Repeated entry---line 12945 of file newbib.bib
+ : % @inproceedings{VidalC17
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12955 of file newbib.bib
- : @inproceedings{Hoofnagle2013
- :                             ,
+"}" immediately follows an entry type---line 12949 of file newbib.bib
+ : %   booktitle = {ATCS/SePrIoT@SecureComm
+ :                                         },
 I'm skipping whatever remains of this entry
-Repeated entry---line 12969 of file newbib.bib
- : @article{Chen2004c
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12986 of file newbib.bib
- : @article{TounsiR18
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 13002 of file newbib.bib
- : @inproceedings{SolanoP17
+Repeated entry---line 12967 of file newbib.bib
+ : % @article{abs-1201-0949
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13192 of file newbib.bib
- : @article{JohOnw04
+Repeated entry---line 12983 of file newbib.bib
+ : % @article{ORiordanFN16
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13002 of file newbib.bib
+ : % @article{MaLPLWZL18
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13020 of file newbib.bib
+ : % @book{Green1989
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13211 of file newbib.bib
- : @inproceedings{GarousiFM16
- :                           ,
+Repeated entry---line 13038 of file newbib.bib
+ : % @inproceedings{Blackwell2009
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13062 of file newbib.bib
+ : % @inproceedings{abrielSBSGM17
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13079 of file newbib.bib
+ : % @article{HarelGery1997
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13097 of file newbib.bib
+ : % @inproceedings{BouyahiaICCA14
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13119 of file newbib.bib
+ : % @inproceedings{BeckersKY14
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13140 of file newbib.bib
+ : % @proceedings{2014-8872
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13158 of file newbib.bib
+ : % @article{MataraciogluOH15
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13173 of file newbib.bib
+ : % @inproceedings{Hoofnagle2013
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13187 of file newbib.bib
+ : % @article{Chen2004c
+ :                     ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "SolanoP17"
 refers to entry "conf/cybersa/2017", which doesn't exist
@@ -101,23 +113,42 @@ A bad cross reference---entry "CoppolinoDFR14"
 refers to entry "conf/iccst/2014", which doesn't exist
 A bad cross reference---entry "LauingerPBK10"
 refers to entry "conf/leet/2010", which doesn't exist
+A bad cross reference---entry "ParkCK09"
+refers to entry "conf/eforensics/2009", which doesn't exist
+A bad cross reference---entry "Danforth11"
+refers to entry "conf/lisa/2011", which doesn't exist
+A bad cross reference---entry "NordOSSK16"
+refers to entry "conf/uss/2016cset", which doesn't exist
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "conf/securecomm/2017w"
+Warning--I didn't find a database entry for "conf/eforensics/2009"
+Warning--I didn't find a database entry for "conf/lisa/2011"
+Warning--I didn't find a database entry for "conf/uss/2016cset"
 Warning--I didn't find a database entry for "conf/iscram/2017"
 Warning--I didn't find a database entry for "conf/esorics/2014-8872"
 Warning--I didn't find a database entry for "conf/iccst/2014"
-Warning--I didn't find a database entry for "conf/cybersa/2017"
 Warning--I didn't find a database entry for "conf/ease/2016"
 Warning--I didn't find a database entry for "conf/leet/2010"
+Warning--I didn't find a database entry for "conf/cybersa/2017"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, editor or organization in 2014-8872
+Warning--to sort, need editor, organization, or key in 2014-8872
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, editor or organization in 2014-8872
+Warning--no key, editor or organization in 2014-8872
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, editor or organization in 2014-8872
 Warning--page numbers missing in both pages and numpages fields in AgrawalFM16
 Warning--empty address in ApececheaES15
 Warning--empty address in BeckersKY14
+Warning--page numbers missing in both pages and numpages fields in BilgeD13
 Warning--empty address in BouyahiaICCA14
+Warning--page numbers missing in both pages and numpages fields in Caballero12
 Warning--empty address in CoppolinoDFR14
+Warning--empty address in Danforth11
+Warning--page numbers missing in both pages and numpages fields in Danforth11
 Warning--empty address in schopfel2010literature
 Warning--empty address in abrielSBSGM17
 Warning--page numbers missing in both pages and numpages fields in abrielSBSGM17
@@ -127,18 +158,29 @@ Warning--empty address in GarousiFM16
 Warning--empty booktitle in mv
 Warning--page numbers missing in both pages and numpages fields in mv
 Warning--page numbers missing in both pages and numpages fields in abs-1201-0949
+Warning--page numbers missing in both pages and numpages fields in Gharibi
+Warning--empty publisher in gtmeth
+Warning--empty address in gtmeth
 Warning--empty publisher in Hoofnagle2013
 Warning--empty address in Hoofnagle2013
 Warning--page numbers missing in both pages and numpages fields in Hoofnagle2013
+Warning--page numbers missing in both pages and numpages fields in KiesebergSR15
 Warning--no number and no volume in slr
 Warning--page numbers missing in both pages and numpages fields in slr
 Warning--empty address in content
 Warning--empty address in LauingerPBK10
 Warning--page numbers missing in both pages and numpages fields in LauingerPBK10
+Warning--empty publisher in li06ieee
+Warning--empty address in li06ieee
+Warning--page numbers missing in both pages and numpages fields in li06ieee
 Warning--empty publisher in Ma2012
 Warning--empty address in Ma2012
 Warning--page numbers missing in both pages and numpages fields in MataraciogluOH15
+Warning--empty address in NordOSSK16
+Warning--page numbers missing in both pages and numpages fields in NordOSSK16
+Warning--empty address in ParkCK09
 Warning--empty address in sms-petersen
+Warning--unrecognized DOI value [://10.26562/IJIRIS.2018.FBIS10080]
 Warning--empty address in ring2017data
 Warning--empty publisher in scotthayward2013sec
 Warning--empty address in scotthayward2013sec
@@ -147,46 +189,47 @@ Warning--empty address in SolanoP17
 Warning--empty publisher in stempfhuber2008enhancing
 Warning--empty address in stempfhuber2008enhancing
 Warning--page numbers missing in both pages and numpages fields in stempfhuber2008enhancing
+Warning--empty address in straussian
 Warning--empty address in VidalC17
-You've used 48 entries,
+You've used 64 entries,
             5719 wiz_defined-function locations,
-            1655 strings with 26565 characters,
-and the built_in function-call counts, 56662 in all, are:
-= -- 6985
-> -- 2159
+            1775 strings with 30345 characters,
+and the built_in function-call counts, 75128 in all, are:
+= -- 9499
+> -- 2756
 < -- 1
-+ -- 712
-- -- 744
-* -- 4201
-:= -- 5801
-add.period$ -- 242
-call.type$ -- 48
-change.case$ -- 336
-chr.to.int$ -- 48
-cite$ -- 83
-duplicate$ -- 4945
-empty$ -- 3477
-format.name$ -- 888
-if$ -- 13525
-int.to.chr$ -- 2
++ -- 907
+- -- 961
+* -- 5496
+:= -- 7591
+add.period$ -- 323
+call.type$ -- 64
+change.case$ -- 432
+chr.to.int$ -- 63
+cite$ -- 123
+duplicate$ -- 6575
+empty$ -- 4633
+format.name$ -- 1145
+if$ -- 18126
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 177
-newline$ -- 547
-num.names$ -- 398
-pop$ -- 1827
+missing$ -- 246
+newline$ -- 719
+num.names$ -- 526
+pop$ -- 2436
 preamble$ -- 1
-purify$ -- 767
+purify$ -- 1005
 quote$ -- 0
-skip$ -- 1726
+skip$ -- 2257
 stack$ -- 0
-substring$ -- 3980
-swap$ -- 479
+substring$ -- 5272
+swap$ -- 630
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1153
-warning$ -- 35
-while$ -- 345
+type$ -- 1460
+warning$ -- 56
+while$ -- 472
 width$ -- 0
-write$ -- 1004
-(There were 28 error messages)
+write$ -- 1324
+(There were 34 error messages)
