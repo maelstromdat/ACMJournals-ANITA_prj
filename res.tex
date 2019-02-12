@@ -139,10 +139,9 @@ Beyond the previously defined taxonomy addressing the surface web, this section 
 \caption{A taxonomy of cybercrime threat intelligence for the surface web.}\label{taxo2}
 \end{figure}
 
-
 \subsubsection{Assessment Methods}
 
-TODO\\
+The assessment methods harnessed for the investigation in the context of deep-web and darknets are considerably different with respect to their surface internet counterparts. Data indicates a distinct use of port-scan \cite{GadgeP08,KikuchiFTD08} techniques as a basis for assessment, namely, detecting port activity in or around a specific host. Most recent works along these lines reported in our dataset is from Neu et al. \cite{NeuTLMOZ18} offer glimpse of port-scan technology in the context of Software-Defined Networks (SDNs) \cite{sorensen2012} as well as Ring et al. \cite{ring2018} who manage to detect port-scans at large-scale; a similar attempt to Ring et al. comes from Affinito et al. \cite{Affinito2018} who implement a stream analysis campaign over Apache Spark to instrument for large-scale port-scans. From a higher level of abstraction, network scans \cite{MazelFF16} are reported as the second most-frequent method for online source risk assessment; network scans are defined as a procedure for identifying active hosts on a network, either for the purpose of attacking them or for network security assessment \cite{LeckieR02}. Recent research in this domain shares the same aims as port-scanning research, i.e., detection and avoidance. Concerning the remainder of the approaches, a very valuable recap is offered by Liu et al. \cite{LiuF18}. More specifically, OneFlow analysis concerns analysis of large-scale traffic directed at single entry-points inside a network \cite{YegneswaranBP04} while Backscattering \cite{BalkanliZH15} and IP-Fragment analysis \cite{KimKH13} concern identifying different aspects of DDoS attacks, namely, response packets to (D)DoS attacks carried out elsewhere in the Internet and attempts to defeat packet filter policies. Furthermore, small-* analysis techniques aim at establishing anomalies in network traffic reflecting a minimum amount of specific packet types (e.g., SYN, UDP, Ping) --- a very valuable comparative outline of these approaches is contained in Kumar et al. \cite{kumar2014intrusion}.
 
 \subsubsection{Anonymous Crawling Policies}
 
