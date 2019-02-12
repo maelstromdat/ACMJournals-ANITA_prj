@@ -56,7 +56,7 @@ Finally, as an overview of the thematic coding that we adopted to elicit answers
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.4]{codescount.png}
+\includegraphics[scale=0.4]{./img/codescount.png}
 \end{center}
 \caption{Count of occurrences for core-concepts across our dataset, normalized on a percentile scale.}\label{codescount}
 \end{figure}
@@ -162,21 +162,19 @@ TODO\\
 
 \subsection{Cybercrime Threat Indicators: Topic Modelling Results}
 
-In this paragraph we are now going to discuss the results of our Topic Modelling Analysis on our set of papers. As previously stated, we used Latent Dirichlet Allocation (LDA) to highlight the most relevant themes in our textual data, however before applying LDA we pre-processed our text. The pre-processing phase aims at improve our final results and consist of: \emph{i} removal of unwanted chars, numbers and symbols (like words smaller than two chars), \emph{ii} removal of stop-wars, \emph{iii} lemmatization in order to reduce any given word to its root form thereby reducing multiple forms of a word to a single word.
+In this paragraph we are now going to discuss the results of our Topic Modelling Analysis on our set of papers. We used Latent Dirichlet Allocation (LDA) to highlight the most relevant themes in our textual data, however before applying LDA we pre-processed our text. The pre-processing phase aims at improve our final results and consist of: \emph{i} removal of unwanted chars, numbers and symbols (like words smaller than two chars), \emph{ii} removal of stop-wars, \emph{iii} lemmatization in order to reduce any given word to its root form thereby reducing multiple forms of a word to a single word.
 After the pre-processing phase we apply LDA method for visualizing and interpreting topics, the method we used is the one described in \cite{W14-3110} called \textbf{LDAvis} and based on the work of Chuang et. al in \cite{Chuang:2012:TVT:2254556.2254572}. The paper, moreover, gives the instructions to read the diagrams we plotted, however, below continue with a small recap about how to interpret our diagrams. 
 On the left side of our figures we have a recap of our topics, each of the circle represent a topic and how prevalent it is, moreover if the circles are overlapping each other means that those topics have common terms. Into each of this circle are sorted our terms in a decreasing order of prevalence.
-The right panel of our results depicts a horizontal barchart whose bars represent the individual terms that are the most useful for interpreting the currently selected topic on the left. The overlaid bars represent both the corpus-wide frequency of a given term as well as the topic-specific frequency of the term \cite{W14-3110, Chuang:2012:TVT:2254556.2254572}. The $\lambda$ slider allows to rank the terms according to term relevance. Moving the slider allows to adjust the rank of terms based on much discriminatory (or ``relevant'') are for the specific topic, we fixed the $\lambda$ at 0.8.\todo{suggested value is 0.6, however nothing change with the results}
+The right panel of our results depicts a horizontal barchart whose bars represent the individual terms that are the most useful for interpreting the currently selected topic on the left. The overlaid bars represent both the corpus-wide frequency of a given term as well as the topic-specific frequency of the term \cite{W14-3110, Chuang:2012:TVT:2254556.2254572}. The $\lambda$ slider allows to rank the terms according to term relevance. Moving the slider allows to adjust the rank of terms based on much discriminatory (or ``relevant'') are for the specific topic. We fixed the $\lambda$ at 0.8 in order to highlight frequent terms but not exclusive, a $\lambda$ equal or closed to zero will highlight potentially rare, but exclusive terms for the selected topic.
 
-Here below we are now going to discuss our results of our topic modelling analysis. For each analysis in Fig.~\ref{fig:topicmodelling_1}, Fig.~\ref{fig:topicmodelling_2}~and Fig.~\ref{fig:topicmodelling_3} \todo{missed dark and deep web analysis} we build a table where we summarize and discuss the most relevant terms related to the cybersecurity field. 
+Here below we are now going to discuss our results of our topic modelling analysis. For each analysis for the Surface Web in Fig.~\ref{fig:topicmodelling_1}, Fig.~\ref{fig:topicmodelling_2}, Fig.~\ref{fig:topicmodelling_3} and Fig.~\ref{fig:topicmodelling_4} we build a table where we summarize and discuss the most relevant terms related to the cybersecurity field. We then will do the same for the analysis for the Deep-, Dark-Web Web in Fig.~\ref{fig:topicmodellingDARK_1}, Fig.~\ref{fig:topicmodellingDARK_2}, Fig.~\ref{fig:topicmodellingDARK_3} and Fig.~\ref{fig:topicmodellingDARK_4}.
 
 \subsubsection{Topic modelling results for Surface Web}
 
-In Table~\ref{tab:topicmodelling_1} we have the list of words from \textit{Topic~1}. 
+In the following tables and figures we are going to discuss the results of our topic modelling analysis for the Surface Web. The tables contain the most relevant terms cybersecurity related of each topic. Meanwhile the figures show the results with all the most relevant terms. 
 
 
-%%%%%%%%%% TABLE topic 1 %%%%%%%%%%%%%%
-
-\begin{table}[H!]
+\begin{table}[h!]
 %\small
 %\resizebox{\textwidth}{!}{%
 \scalebox{0.8}{
@@ -235,66 +233,92 @@ software but free or open source. \end{tabular} \\
 
 %%%%%%%%%%%%%%% ANALIS TOPIC 1
 
-\begin{figure}[H!]
+\begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.3]{./img/codingALL_topic1.pdf}
+\includegraphics[scale=0.5]{./img/codingALL_topic1.pdf}
 \end{center}
 \caption{Topic modelling results of the first topic in Surface Web.}
 \label{fig:topicmodelling_1}
 \end{figure}
 
+The relevant terms from our first topic and listed in Table~\ref{tab:topicmodelling_1} highlight what are the most common cybersecurity threat at operating system (OS) level. The OS of a user is indeed the first target of hackers and criminals in order to steal information. If a system is not updated or protected through antivirus or firewall, can be easily attacked by criminals. A really famous vulnerability in Microsoft OS is \textit{EternalBlue}, this vulnerability, targets the Microsoft Windows Server Message Block (SMB) protocol and allows attackers to execute arbitrary code. This vulnerability is extensively used today by ransomwares like WannaCry, Petya and NotPetya. This threats infect the user's PC and encrypt the whole hard drive asking for a ransom in order to receive a key to decrypt all the files. Moreover, the common practice of downloading pirate software from unknown sources makes life easier to the hackers, viruses and malware. 
+
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%% TABLE topic 2 %%%%%%%%%%%%%%
-
 \begin{table}[h!]
-\small
-\resizebox{\textwidth}{!}{%
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
 \begin{tabular}{@{}lll@{}}
 \toprule
 \textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
 \rowcolor[HTML]{EFEFEF} 
-System & 26 & \begin{tabular}[c]{@{}l@{}}The system can receive different type of attacks. The operating system of a PC, if not properly\\ maintained, can easily be the target of virus, worm, malware, spyware and other cyberthreat\\ attacks. In order to protect the system of a private user is important to have an antivirus\\ and keep the system updated. In a private company is important to educate the \\ employee to do not use distrusted applications and to use strong passwords in order to protect\\ personal information. An attack to the system can involve a loss of personal data, a destabilization  \\ of the running processes of the system and the forward of private information to third parties.\end{tabular} \\
-Software & 8 & \begin{tabular}[c]{@{}l@{}}Malicious software (MALWARE) is one of the most common cyber threat attack. A MALWARE is\\ any software that does harm to the system, such as a virus or spyware. There are a lot of different \\ versions of MALWARE: virus, trojan, rootkit, worm, spyware and adware, all of them with different\\ characteristics but with the same purpose. The aim of all this malicious software is to steal private \\ information from the victim's PC, profile the habits of the victim user, use the attacked machine as a\\ zombie for network attacks.\end{tabular} \\
-\rowcolor[HTML]{EFEFEF} 
-Url & 8 & \begin{tabular}[c]{@{}l@{}}Url is a unique identifier used to locate a resource on the internet. However, often Url's are used to\\ carry unaware users on distrust websites built in order to steal personal information and banking \\ coordinates and passwords. Url's are spread through emails, gaming platforms from OSN (Online \\ Social Networks), SMS and instant messaging platforms.\end{tabular} \\
- &  &  \\
-\rowcolor[HTML]{EFEFEF} 
- &  & \\ \bottomrule
+Packet & 19 & \begin{tabular}[c]{@{}l@{}} The Denial of Service (DoS) attack is meant to shut down a machine or a network and its services\\ making it inaccessible to the users. The main target of DoS attack are usually  web servers of\\ high-profile organizations such as banking, commerce, and media companies, or government and\\ trade organizations. In general we have two types of DoS attack: flooding services and crashing services.\\ The first is caused by high traffic to the servers that makes the services slow down and eventually stop.\\ In the latter case the DoS attack exploit vulnerabilities in order to let crash the running services or\\ destabilize the system.\end{tabular} \\
+\rowcolor[HTML]{FFFFFF} 
+Link & 10 & \begin{tabular}[c]{@{}l@{}}Also known as Url is a unique identifier used to locate a resource on the internet. However, often Url's\\ are used to carry unaware users on distrust websites built in order to steal personal information and\\ banking coordinates and passwords. Url's are spread through emails, gaming platforms from OSN \\(Online Social Networks), SMS and instant messaging platforms.\end{tabular}\\\bottomrule
 \end{tabular}
 }
 \caption{Topic analysis results of the second topic for Surface Web.}
 \label{tab:topicmodelling_2}
 \end{table}
 
+
+
+
+% \begin{table}[h!]
+% \small
+% \resizebox{\textwidth}{!}{%
+% \begin{tabular}{@{}lll@{}}
+% \toprule
+% \textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+% \rowcolor[HTML]{EFEFEF} 
+% System & 26 & \begin{tabular}[c]{@{}l@{}}The system can receive different type of attacks. The operating system of a PC, if not properly\\ maintained, can easily be the target of virus, worm, malware, spyware and other cyberthreat\\ attacks. In order to protect the system of a private user is important to have an antivirus\\ and keep the system updated. In a private company is important to educate the \\ employee to do not use distrusted applications and to use strong passwords in order to protect\\ personal information. An attack to the system can involve a loss of personal data, a destabilization  \\ of the running processes of the system and the forward of private information to third parties.\end{tabular} \\
+% Software & 8 & \begin{tabular}[c]{@{}l@{}}Malicious software (MALWARE) is one of the most common cyber threat attack. A MALWARE is\\ any software that does harm to the system, such as a virus or spyware. There are a lot of different \\ versions of MALWARE: virus, trojan, rootkit, worm, spyware and adware, all of them with different\\ characteristics but with the same purpose. The aim of all this malicious software is to steal private \\ information from the victim's PC, profile the habits of the victim user, use the attacked machine as a\\ zombie for network attacks.\end{tabular} \\
+% \rowcolor[HTML]{EFEFEF} 
+% Url & 8 & \begin{tabular}[c]{@{}l@{}}Url is a unique identifier used to locate a resource on the internet. However, often Url's are used to\\ carry unaware users on distrust websites built in order to steal personal information and banking \\ coordinates and passwords. Url's are spread through emails, gaming platforms from OSN (Online \\ Social Networks), SMS and instant messaging platforms.\end{tabular} \\
+%  &  &  \\
+% \rowcolor[HTML]{EFEFEF} 
+%  &  & \\ \bottomrule
+% \end{tabular}
+% }
+% \caption{Topic analysis results of the second topic for Surface Web.}
+% \label{tab:topicmodelling_2}
+% \end{table}
+
 %%%%%%%%%%%%%%% ANALIS TOPIC 2
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.4]{./img/codingALL_topic2.pdf}
+\includegraphics[scale=0.5]{./img/codingALL_topic2.pdf}
 \end{center}
 \caption{Topic modelling results of the second topic in Surface Web.}
 \label{fig:topicmodelling_2}
 \end{figure}
 
 
-
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%% TABLE topic 3 %%%%%%%%%%%%%%
-
-
 \begin{table}[h!]
-\small
-\resizebox{\textwidth}{!}{%
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
 \begin{tabular}{@{}lll@{}}
 \toprule
 \textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
 \rowcolor[HTML]{EFEFEF} 
-Process & 7 & \begin{tabular}[c]{@{}l@{}}Processes are all the related activities (parts) inside the system that work together to make it function. \\ A compromised process can lead to a unstable system. In order to compromise a process we have \\ different type of attacks, virus, worm, malware, spyware, trojans. All this attacks have as a target the \\ processes of the system in order to change the main functionalities and make them working for the \\ attacker. In order to avoid this type of attacks is extremely important to have an updated system, a\\ proper antivirus installed and a firewall in order to defend the system environment.\end{tabular} \\
-Bitcoin & 4 & \begin{tabular}[c]{@{}l@{}}Bitcoin is either virtual currency or reference to the technology. You can make transactions by check, \\ wiring, or cash. In the last years we witnessed a huge growth of this king of currency and transactions.\\ As a virtual currency, Bitcoins, can also ensure an high level of anonimity and for that reason is widely \\ used for illegal transactions. In the last year we saw bitcoins used for ask ransom after a cyberattack, \\ their extensively use in Dark and Deep web for illegal trafficking and the adoption of this virtual currency\\ in all those activities that need an high level of anonimity.\end{tabular} \\
- &  &  \\
- &  &  \\ \bottomrule
+Social & 12 & \begin{tabular}[c]{@{}l@{}} OSN (Online Social Networks) are the new life place for many people, they use this platforms to keep \\in touch, to share pictures and comments, to read news. However, these OSN platforms can easily \\become a cybersecurity threat for every user. Third-party apps: hackers may be able to gain access \\ through vulnerabilities in third-party apps that integrate with the big social networks. Phishing \\attacks: using fake promotions or through the promise of significant discounts, hackers can tempt \\users to click on phishing links in order to steal banking information. Identity theft: collecting the\\ public information available OSN, hackers can turn into unaware user in order to perpetrate scam. \\Confidential information leak: can happen when not expert users are not able to set up privacy\\ settings in order to protect personal information. 
+\end{tabular} \\
+\rowcolor[HTML]{FFFFFF} 
+Website & 10 & \begin{tabular}[c]{@{}l@{}}A website can be the place of cyberthreat attacks if the system behind it is not well updated or if the \\ passwords used by the admin are not strong enough. A compromised website can host different types \\ of cyberthreat attacks. A Phishing website is able to steal passwords and personal information of a \\ user. A website can also be the target of SQL Injection Attack in order to retrieve private information \\ from the database.\end{tabular} \\
+\rowcolor[HTML]{EFEFEF} 
+Email & 9 & \begin{tabular}[c]{@{}l@{}}The emails are one of the main vehicle of information and data. The Identity Theft attack happen when \\ an attacker is able to gain a handle on the employee's email account. The attacker can then turn into the \\ employee's identity. Phishing Attacks a type of social engineering attack often used to steal user data, \\ including login credentials and credit card numbers. It occurs when an attacker, masquerading as a\\ trusted entity, dupes a victim into opening an email. The recipient is then tricked into clicking a malicious\\ link. Virus as attachment to the email in order to install unwanted software on the PC of the user. Spam\\ email are commonly used in order to deliver Trojan horses, viruses, worms, spyware, and targeted\\ phishing attacks or to bring users on a external website in order to steal private and personal information.\end{tabular} \\
+\rowcolor[HTML]{FFFFFF} 
+%Exploit & 6 & \begin{tabular}[c]{@{}l@{}}An exploit takes advantage of a weakness in an operating system, application or any other software code,\\ including application plug-ins or software libraries. The owners of the code typically issue a fix, or patch, in\\ response. 
+Process & 5 & \begin{tabular}[c]{@{}l@{}}Processes are all the related activities (parts) inside the system that work together to make it function. \\ A compromised process can lead to a unstable system. In order to compromise a process we have \\ different type of attacks, virus, worm, malware, spyware, trojans. All this attacks have as a target the \\ processes of the system in order to change the main functionalities and make them working for the \\ attacker. In order to avoid this type of attacks is extremely important to have an updated system, a\\ proper antivirus installed and a firewall in order to defend the system environment.
+\end{tabular} \\
+\bottomrule
 \end{tabular}
 }
 \caption{Topic analysis results of the third topic for Surface Web.}
@@ -302,45 +326,280 @@ Bitcoin & 4 & \begin{tabular}[c]{@{}l@{}}Bitcoin is either virtual currency or r
 \end{table}
 
 
+
+% \begin{table}[h!]
+% \small
+% \resizebox{\textwidth}{!}{%
+% \begin{tabular}{@{}lll@{}}
+% \toprule
+% \textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+% \rowcolor[HTML]{EFEFEF} 
+% Process & 7 & \begin{tabular}[c]{@{}l@{}}Processes are all the related activities (parts) inside the system that work together to make it function. \\ A compromised process can lead to a unstable system. In order to compromise a process we have \\ different type of attacks, virus, worm, malware, spyware, trojans. All this attacks have as a target the \\ processes of the system in order to change the main functionalities and make them working for the \\ attacker. In order to avoid this type of attacks is extremely important to have an updated system, a\\ proper antivirus installed and a firewall in order to defend the system environment.\end{tabular} \\
+% Bitcoin & 4 & \begin{tabular}[c]{@{}l@{}}Bitcoin is either virtual currency or reference to the technology. You can make transactions by check, \\ wiring, or cash. In the last years we witnessed a huge growth of this king of currency and transactions.\\ As a virtual currency, Bitcoins, can also ensure an high level of anonimity and for that reason is widely \\ used for illegal transactions. In the last year we saw bitcoins used for ask ransom after a cyberattack, \\ their extensively use in Dark and Deep web for illegal trafficking and the adoption of this virtual currency\\ in all those activities that need an high level of anonimity.\end{tabular} \\
+%  &  &  \\
+%  &  &  \\ \bottomrule
+% \end{tabular}
+% }
+% \caption{Topic analysis results of the third topic for Surface Web.}
+% \label{tab:topicmodelling_3}
+% \end{table}
+
+
 %%%%%%%%%%%%%%% ANALIS TOPIC 3
 
-\begin{figure}
+\begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.4]{./img/codingALL_topic3.pdf}
+\includegraphics[scale=0.5]{./img/codingALL_topic3.pdf}
 \end{center}
 \caption{Topic modelling results of the third topic in Surface Web.}
 \label{fig:topicmodelling_3}
 \end{figure}
 
+In Table~\ref{tab:topicmodelling_2} and in Table~\ref{tab:topicmodelling_3} we have the list of terms for our second and third topic. Here we notice that our topic analysis indexed all the possible vehicles for any type of cybersecurity threat. We, indeed, have links usually used in order to launch a phishing attack. And emails used by the phishing attack in order to carry a message to trick the recipient into believing that the message is something they want or need - a request from their bank, for instance, or a note from someone in their company - and to click a link or download an attachment. Online Social Network, nowadays platforms where users share every personal data daily. This database of information can be the target of a lot of different attack range from cyber bullying, identity theft, phishing to viruses from third party apps, fake profiles, etc.  
+
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%% %%%%%%%%%%%%%%% 
 %%%%%%%%%% TABLE topic 4 %%%%%%%%%%%%%%
 
-
-
-
-
+\begin{table}[h!]
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+\rowcolor[HTML]{EFEFEF} 
+IODEF & 8 & \begin{tabular}[c]{@{}l@{}} Incident Object Description Exchange Format defines a data representation that provides a framework for sharing \\information commonly exchanged by Computer Security Incident Response Teams (CSIRTs) about computer security\\ incidents. This document describes the information model for the IODEF and provides an associated data model specified\\ with XML Schema \cite{rfc7970}.\end{tabular} \\
+CTI & 4 & \begin{tabular}[c]{@{}l@{}} Cyber Threat Intelligence is what cyber threat information becomes once it has been collected, evaluated in the\\ context of its source and reliability, and analyzed through rigorous and structured tradecraft techniques by those\\ with substantive expertise and access to all-source information \cite{cti}.\end{tabular} \\
+\rowcolor[HTML]{EFEFEF} 
+OTX & 4 &  \begin{tabular}[c]{@{}l@{}} Open Threat Exchange it is a platform in order to share information about threats and provides access to a global\\ community of threat researchers and security professionals. OTX allows anyone in the security community to\\ actively discuss, research, validate, and share the latest threat data, trends, and \\techniques.\end{tabular} \\
+GLBA & 3 &  \begin{tabular}[c]{@{}l@{}} The Gramm-Leach-Bliley Act is also called the Financial Modernization Act of 1999. It was passed by Congress as\\ a means of controlling ways in which financial institutions handle and deal with individuals private information.\end{tabular} \\\bottomrule
+\end{tabular}
+}
+\caption{Topic analysis results of the fourth topic for Surface Web.}
+\label{tab:topicmodelling_4}
+\end{table}
 
 %%%%%%%%%%%%%%% ANALIS TOPIC 4
 
-\begin{figure}
+\begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.4]{./img/codingALL_topic4.pdf}
+\includegraphics[scale=0.5]{./img/codingALL_topic4.pdf}
 \end{center}
-\caption{Topic modelling results of the third topic in Surface Web.}
+\caption{Topic modelling results of the fourth topic in Surface Web.}
 \label{fig:topicmodelling_4}
 \end{figure}
 
+%assessment method
+
+The last topic in Table~\ref{tab:topicmodelling_4} lists some standard format for computer security incident response, all of them with the idea of collaboration in order to decrease the risk of a cyber threat at companies level. IODEF is an object-oriented structured format used to describe computer security information for the purpose of exchange between Computer Security Incident Response Teams (CSIRTs). OTX is a platform built in order to share information about threats and having a a network of researchers and security professionals that can collaborate in order to handle the threat.
 
 
-
-
-
+\newpage
 \subsubsection{Topic modelling results for Dark and Deep Web}
 
+In the following tables and figures we are going to discuss the results of our topic modelling analysis for the Deep-, Dark-Web. The tables contain the most relevant terms cybersecurity related of each topic. Meanwhile the figures show the results with all the most relevant terms. 
+
+%%%%%%%%%%%%%% FIRST TOPIC DARK DEEP WEB
+
+
+\begin{table}[h!]
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+\rowcolor[HTML]{EFEFEF} 
+
+Bitcoin & 9 & \begin{tabular}[c]{@{}l@{}}Bitcoin is either virtual currency or reference to the technology. You can make transactions by check, \\ wiring, or cash. In the last years we witnessed a huge growth of this king of currency and transactions.\\ As a virtual currency, Bitcoins, can also ensure an high level of anonymity and for that reason is widely \\ used for illegal transactions. In the last year we saw bitcoins used for ask ransom after a cyberattack, \\ an extensively use in Dark and Deep web for illegal trafficking and the adoption of this virtual currency\\ in all those activities that need an high level of anonymity.\end{tabular} \\
+Domain & 8 & \begin{tabular}[c]{@{}l@{}} Internet Domain is a unique name on the Internet. The chosen name combined with a generic top-level\\ domain (gTLD), such as .com or .org, make up the Internet domain\\ name \cite{domain}. The .onion top-level domain is reserved for hidden service names. Dark Web visitors do not\\ use the public DNS to resolve .onion names to Internet Protocol (IP) addresses, instead, resolution\\ occurs using the entirely separate Tor hidden service protocol. 
+\end{tabular} \\
+\rowcolor[HTML]{EFEFEF} 
+Shop & 7 & \begin{tabular}[c]{@{}l@{}}Dark and Deep web are the best places where to trade illegal products. The nature of the Dark web \\together with the use of cryptocurrences like Bitcoins, make possible to sell and buy every type of \\product from armies to drugs, counterfeit medicine and bullets being completely anonymous.
+\end{tabular} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Topic analysis results of the first topic for Dark and Deep Web.}
+\label{tab:topicmodellingDARK_1}
+\end{table}
 
 
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{./img/DARKDEEP_topic1.pdf}
+\end{center}
+\caption{Topic modelling results of the first topic in Dark and Deep Web.}
+\label{fig:topicmodellingDARK_1}
+\end{figure}
+
+In Table~\ref{tab:topicmodellingDARK_1} we have terms strictly related to Dark and Deep web. The bitcoins are, indeed, the most used cryptocurrency in order to keep transactions and illegal trafficking anonymous. We have then \textbf{Domain} term that highlights the fact that all this transaction take place in reserved space. Indeed all the domains in the darknet are .onion since are part of a different type of network. 
+
+
+
+
+
+%%%%%%%%%%%%%% SECOND TOPIC DARK DEEP WEB
+
+
+\begin{table}[h!]
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+\rowcolor[HTML]{EFEFEF} 
+Worm & 5 & \begin{tabular}[c]{@{}l@{}} Worms are similar to computer viruses and works in order to alter the functionality\\ of a system. A worm enters a computer through a vulnerability in the system and takes \\advantage of file-transport or information-transport features on the system, allowing \\it to travel unaided. those worms more advanced like WannaCry, Petya or NotPetya\\ leverage encryption, wipers, and ransomware technologies to harm their targets.
+\end{tabular} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Topic analysis results of the second topic for Dark and Deep Web.}
+\label{tab:topicmodellingDARK_2}
+\end{table}
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{./img/DARKDEEP_topic2.pdf}
+\end{center}
+\caption{Topic modelling results of the second topic in Dark and Deep Web.}
+\label{fig:topicmodellingDARK_2}
+\end{figure}
+
+In Table~\ref{tab:topicmodellingDARK_2} we highlight the term Worm. WannaCry, Petya and NotPetya are example of worms that usually born in the darknet built by hackers or by cybercriminals. Most of hackers community have their virtual space in this part of the network where they sell every type of cybersecurity threat, attack and ``services'' in order to steal private information.
+
+
+%%%%%%%%%%%%%% THIRD TOPIC DARK DEEP WEB
+
+\begin{table}[h!]
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+\rowcolor[HTML]{EFEFEF} 
+Tor & 9 & \begin{tabular}[c]{@{}l@{}} Tor is short for The Onion Router and was initially a worldwide network of servers\\ developed with the U.S. Navy that enabled people to browse the internet anonymously. \\The Tor Browser is a web browser that anonymizes your web traffic using the Tor network,\\ making it easy to protect your identity online \cite{tor}. The browser, based on Mozilla, routes \\all your traffic through  the Tor network making it anonymous. 
+\end{tabular} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Topic analysis results of the third topic for Dark and Deep Web.}
+\label{tab:topicmodellingDARK_3}
+\end{table}
+
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{./img/DARKDEEP_topic3.pdf}
+\end{center}
+\caption{Topic modelling results of the third topic in Dark and Deep Web.}
+\label{fig:topicmodellingDARK_3}
+\end{figure}
+
+
+In Table~\ref{tab:topicmodelling_3} the third topic table related to the Dark and Deep web we highlighted the term Tor. Tor is the network of servers behind the Datknet. It provides anonymity and in order to access to this network we have the Tor Browser. It routes all your web traffic through the Tor network, anonymizing it. Tor consists of a three-layer proxy, like layers of an onion. Tor Browser connects at random to one of the publicly listed entry nodes, bounces that traffic through a randomly selected middle relay, and finally spits out your traffic through the third and final exit node \cite{tor}. This type of network makes impossible to trace users and illegal activities. 
+
+
+%%%%%%%%%%%%%% FOURTH TOPIC DARK DEEP WEB
+
+\begin{table}[h!]
+%\small
+%\resizebox{\textwidth}{!}{
+\scalebox{0.8}{
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Terms} & \textbf{Score} & \textbf{} \\ \midrule 
+\rowcolor[HTML]{EFEFEF} 
+Darknet & 11 & \begin{tabular}[c]{@{}l@{}} The internet is actually made up of three different layers: the surface web, the deep web\\ and the dark web. The top layer, the surface web, are web pages that show up using search\\ engines such as Google - like The Sun website that you're looking at right now. The deep web\\ are web pages which search engines can't access and are therefore hidden, accessed via\\ passwords and authorisation. The dark web is a network of untraceable online activity and\\ websites on the internet. They cannot be found using search engines and to access them you\\ need to use specific software, configurations or have authorisation. They are used by lots of\\ different people to keep their web activity hidden \cite{darkdeepnet} .
+\end{tabular} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Topic analysis results of the fourth topic for Dark and Deep Web.}
+\label{tab:topicmodellingDARK_4}
+\end{table}
+
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{./img/DARKDEEP_topic4.pdf}
+\end{center}
+\caption{Topic modelling results of the fourth topic in Dark and Deep Web.}
+\label{fig:topicmodellingDARK_4}
+\end{figure}
+
+In the last topic in Table~\ref{tab:topicmodellingDARK_4} we have the definition of Deep web and Dark web. Usually search engines like Google, Bing, and Yahoo are able to search and index websites because of links. They crawl the internet by visiting one web page, then the links on that page, and then the links on subsequent pages. The deep web, differently, does not allow search engines to crawl and index websites. Usually, differently from the Dark web, the Deep web is a safe place where simply the content is not available on the surface web and remains private. Differently, the Dark web operates with a high degree of anonymity and hosts harmless activities and content, as well as criminal ones. What makes possible to do business on the Dark web is Bitcoin and cryptocurrency that helps assure buyers and sellers anonymity.
+
+
+\subsubsection{Qualitative vs Quantitative insights: overlap and considerations}
+
+In this last section we have Fig.~\ref{fig:distribution} the distribution of our thematic codes among the different topics in Surface Web and Deep-, Dark-Web. We notice that for our  thematic coding all the subjects are covered in a Surface Web. Meanwhile, in the Deep-, Dark-Web distribution we can state that there is a gap in scientific studies on \textbf{ACP} (Anonymous Crawling Policies), \textbf{SQUAL} (Software Quality), \textbf{WSAP} (WebSite Appearance Parameter). This analysis tells us that further studies in this direction are needed. 
+
+
+
+% METH	methods for the risk assessment new data sources
+% SRLP	Source Risk-Level Parameter. Risk level is referred to a different aspects strictly connected: on one hand, the risk level is due to the involvement of source in illegal trafficking activities; on the other hand, the possibility that criminal groups that own or manage sources monitored by LEAs could recognise anomalous activities due to the crawling process and block them, compromising the investigations.
+% DEPTH	Depth of Analysis. Taking into account that risk level of a source can increase with its depth in the Web, such methods will then consider the position of the source (in Surface Web, Deep Web or Dark Nets)
+% ACP	Anonymous Crawling Policies. metadata that can be extracted in order to define which policies should be enabled to perform the crawling and with which degree of anonymity.
+% WSAP	WebSite Appearance Parameter. Finally, websites appearance, their update frequency and refresh in data will be taken into account during the assessment stage.
+% SQUAL	Software Quality reflects the level of assessment for a certain piece of software against basic Criteria for software quality, e.g., software quality standards
+% CTYPE	type of criminal activity perpetrated by new online data source - different types require different indicators
+% CMEASURE	countermeasure. Action to be taken as soon as the attack manifestation emerges and as soon as something suggests an attack is in progress or has taken place.
+
+
+% \begin{figure}[h!]
+% \begin{center}
+% \includegraphics[scale=0.6]{./img/surfaceWEB.pdf}
+% \end{center}
+% \caption{Topic distribution of our thematic coding in Surface Web.}
+% \label{fig:distributionSURFACE}
+% \end{figure}
+
+
+
+% \begin{figure}[h!]
+% \begin{center}
+% \includegraphics[scale=0.6]{./img/deepDARKweb.pdf}
+% \end{center}
+% \caption{Topic distribution of our thematic coding in Surface Web.}
+% \label{fig:distributionDEEPDARK}
+% \end{figure}
+
+
+
+
+% \begin{figure}%
+% \centering
+% \subfigure[][]{%
+% \label{fig:distributionSURFACE}%
+% \includegraphics[height=2in]{./img/surfaceWEB.pdf}}%
+% \hspace{8pt}%
+% \subfigure[][]{%
+% \label{fig:distributionDEEPDARK}%
+% \includegraphics[height=2in]{./img/deepDARKweb.pdf}} \\
+% \caption[The set of two figures.]{The set of two figures:
+% \subref{fig:distributionSURFACE} describes the thematic coding distribution in Surface Web topic analysis;
+% \subref{fig:distributionDEEPDARK} describes the thematic coding distribution in Deep-Dark Web topic analysis.}
+% \label{fig:distribution}%
+% \end{figure}
+
+\begin{figure}[h!]
+	\subfigure[Surface Web. \label{fig:distributionSURFACE}]{\includegraphics[width=.47\textwidth]{./img/surfaceWEB.pdf}}
+	\hfill
+	\subfigure[Deep-, Dark-Web. \label{fig:distributionDEEPDARK}]{\includegraphics[width=.47\textwidth]{./img/deepDARKweb.pdf}}
+	\caption{The two figures describe the thematic coding distribution in Surface Web and Deep-Dark Web topic analysis.}
+	\label{fig:distribution}
+\end{figure}
 
 
 
