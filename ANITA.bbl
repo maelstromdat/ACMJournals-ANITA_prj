@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{64}
+\begin{thebibliography}{136}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,13 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{??}{rin}{[n. d.]}]%
+        {ring2018}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Garc{\'i}a-Alfaro, Herrera-Joancomart{\'i},
   Lupu, Posegga, Aldini, Martinelli, and Suri}{201}{2015}]%
         {2014-8872}
@@ -48,6 +55,22 @@
   Papers}}. \bibinfo{series}{Lecture Notes in Computer Science},
   Vol.~\bibinfo{volume}{8872}. \bibinfo{publisher}{Springer}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Affinito, Botta, Garofalo, and
+  Ventre}{Affinito et~al\mbox{.}}{2018}]%
+        {Affinito2018}
+\bibfield{author}{\bibinfo{person}{Antonia Affinito}, \bibinfo{person}{Alessio
+  Botta}, \bibinfo{person}{Mauro Garofalo}, {and} \bibinfo{person}{Giorgio
+  Ventre}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Detecting Port and Net Scan using Apache Spark.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1806.11047}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1806.html#abs-1806-11047}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Agrawal, Fu, and Menzies}{Agrawal
@@ -62,6 +85,42 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/journals/corr/corr1608.html\#AgrawalFM16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ahrend, Jirotka, and Jones}{Ahrend
+  et~al\mbox{.}}{2016}]%
+        {AhrendJJ16}
+\bibfield{author}{\bibinfo{person}{Jan~M. Ahrend}, \bibinfo{person}{Marina
+  Jirotka}, {and} \bibinfo{person}{Kevin Jones}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{On the collaborative practices of cyber threat
+  intelligence analysts to develop and utilize tacit Threat and Defence
+  Knowledge.}. In \bibinfo{booktitle}{\emph{CyberSA}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{1--10}.
+\newblock
+\showISBNx{978-1-5090-0703-5}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/cybersa/cybersa2016.html#AhrendJJ16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Almukaynizi, Paliath, Shah, Shah, and
+  Shakarian}{Almukaynizi et~al\mbox{.}}{2018}]%
+        {AlmukayniziPSSS18}
+\bibfield{author}{\bibinfo{person}{Mohammed Almukaynizi},
+  \bibinfo{person}{Vivin Paliath}, \bibinfo{person}{Malay Shah},
+  \bibinfo{person}{Malav Shah}, {and} \bibinfo{person}{Paulo Shakarian}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Finding Cryptocurrency Attack Indicators Using
+  Temporal Logic and Darkweb Data.}. In \bibinfo{booktitle}{\emph{ISI}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{91--93}.
+\newblock
+\showISBNx{978-1-5386-7848-0}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/isi/isi2018.html#AlmukayniziPSSS18}
 \showURL{%
 \tempurl}
 
@@ -92,6 +151,37 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp5.html\#BaerP07}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bailey, Cooke, Jahanian, Myrick, and
+  Sinha}{Bailey et~al\mbox{.}}{2006}]%
+        {Bailey2006PracticalDM}
+\bibfield{author}{\bibinfo{person}{Martha~J. Bailey}, \bibinfo{person}{Edward
+  Cooke}, \bibinfo{person}{Farnam Jahanian}, \bibinfo{person}{Andrew Myrick},
+  {and} \bibinfo{person}{Sugandha Sinha}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Practical Darknet Measurement}.
+\newblock \bibinfo{journal}{\emph{2006 40th Annual Conference on Information
+  Sciences and Systems}} (\bibinfo{year}{2006}), \bibinfo{pages}{1496--1501}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Balkanli, Zincir-Heywood, and
+  Heywood}{Balkanli et~al\mbox{.}}{2015}]%
+        {BalkanliZH15}
+\bibfield{author}{\bibinfo{person}{Eray Balkanli}, \bibinfo{person}{A.~Nur
+  Zincir-Heywood}, {and} \bibinfo{person}{Malcolm~I. Heywood}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Feature selection for robust backscatter DDoS
+  detection.}. In \bibinfo{booktitle}{\emph{LCN Workshops}},
+  \bibfield{editor}{\bibinfo{person}{Salil Kanhere}, \bibinfo{person}{Jens
+  Tölle}, {and} \bibinfo{person}{Soumaya Cherkaoui}} (Eds.).
+  \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{pages}{611--618}.
+\newblock
+\showISBNx{978-1-4673-6773-8}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/lcn/lcnw2015.html#BalkanliZH15}
 \showURL{%
 \tempurl}
 
@@ -153,6 +243,24 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Bou-Harb, Debbabi, and Assi}{Bou-Harb
+  et~al\mbox{.}}{2015}]%
+        {Bou-HarbDA15}
+\bibfield{author}{\bibinfo{person}{Elias Bou-Harb}, \bibinfo{person}{Mourad
+  Debbabi}, {and} \bibinfo{person}{Chadi Assi}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A Time Series Approach for Inferring Orchestrated
+  Probing Campaigns by Analyzing Darknet Traffic.}. In
+  \bibinfo{booktitle}{\emph{ARES}}. \bibinfo{publisher}{IEEE Computer Society},
+  \bibinfo{pages}{180--185}.
+\newblock
+\showISBNx{978-1-4673-6590-1}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/IEEEares/ares2015.html#Bou-HarbDA15}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Bouyahia, Idrees, Cuppens-Boulahia, Cuppens,
   and Autrel}{Bouyahia et~al\mbox{.}}{2014}]%
         {BouyahiaICCA14}
@@ -175,6 +283,19 @@
 \url{http://dblp.uni-trier.de/db/conf/esorics/lncs8872.html\#BouyahiaICCA14}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bryan~Monk and Garth~Davies}{Bryan~Monk and
+  Garth~Davies}{2018}]%
+        {Monk18}
+\bibfield{author}{\bibinfo{person}{Richard~Frank Bryan~Monk, Julianna~Mitchell}
+  {and} \bibinfo{person}{. Garth~Davies}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{?Uncovering Tor: An Examination of the Network
+  Structure,?}
+\newblock \bibinfo{journal}{\emph{Security and Communication Networks,}}
+  \bibinfo{volume}{Article ID 4231326,}, \bibinfo{number}{12}
+  (\bibinfo{year}{2018}).
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Buder and Cre{\ss}}{Buder and
@@ -201,6 +322,22 @@
 \url{http://dblp.uni-trier.de/db/journals/ercim/ercim2012.html#Caballero12}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Canepa and Claudel}{Canepa and
+  Claudel}{2013}]%
+        {CanepaC13}
+\bibfield{author}{\bibinfo{person}{Edward~S. Canepa} {and}
+  \bibinfo{person}{Christian~G. Claudel}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{A framework for privacy and security analysis of
+  probe-based traffic information systems}. In \bibinfo{booktitle}{\emph{2nd
+  {ACM} International Conference on High Confidence Networked Systems (part of
+  {CPS} Week), HiCoNS 2013, Philadelphia, PA, USA, April 9-11, 2013}}.
+  \bibinfo{pages}{25--32}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2461446.2461451}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Chang, Venkatasubramanian, West, and
@@ -271,6 +408,33 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{{CIS - Center for Internet Security}}{{CIS -
+  Center for Internet Security}}{[n. d.]}]%
+        {cti}
+\bibfield{author}{\bibinfo{person}{{CIS - Center for Internet Security}}.}
+  \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \bibinfo{title}{What is Cyber Threat Intelligence?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2DwQLBn}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Cloudflare.com}}{{Cloudflare.com}}{[n. d.]}]%
+        {ddosdef}
+\bibfield{author}{\bibinfo{person}{{Cloudflare.com}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{What is a DDoS Attack?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2nxRc9O}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Coppolino, D'Antonio, Formicola, and
   Romano}{Coppolino et~al\mbox{.}}{2014}]%
         {CoppolinoDFR14}
@@ -293,6 +457,17 @@
   Evaluative Criteria}.
 \newblock \bibinfo{journal}{\emph{Qualitative Sociology}} \bibinfo{volume}{13},
   \bibinfo{number}{1} (\bibinfo{year}{1990}), \bibinfo{pages}{3--21}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cordesman}{Cordesman}{2002}]%
+        {Cordesman2002}
+\bibfield{author}{\bibinfo{person}{Anthony~H. Cordesman}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Cyber-threats, information warfare, and
+  critical infrastructure protection: Defending the u.s. Homeland}}.
+\newblock \bibinfo{publisher}{Praeger}, \bibinfo{address}{Westport, CT}. viii,
+  189 p. pages.
 \newblock
 
 
@@ -325,6 +500,32 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Danyliw}{Danyliw}{2016}]%
+        {rfc7970}
+\bibfield{author}{\bibinfo{person}{Roman Danyliw}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{{The Incident Object Description Exchange Format
+  Version 2}}.
+\newblock \bibinfo{howpublished}{RFC 7970}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.17487/RFC7970}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Elstob}{Elstob}{1974}]%
+        {Elstob74}
+\bibfield{author}{\bibinfo{person}{C.~M. Elstob}.}
+  \bibinfo{year}{1974}\natexlab{}.
+\newblock \emph{\bibinfo{title}{The Simulation of Criminal Detection
+  Activity.}}
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}. \bibinfo{school}{University
+  of Surrey, Guildford, UK}.
+\newblock
+\newblock
+\shownote{British Library, EThOS.}
+
+
 \bibitem[\protect\citeauthoryear{employee}{employee}{2018}]%
         {norton}
 \bibfield{author}{\bibinfo{person}{Symantec employee}.}
@@ -336,6 +537,38 @@
 \url{https://nr.tn/2pHuWs5}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Fachkha}{Fachkha}{2016}]%
+        {Fachkha16}
+\bibfield{author}{\bibinfo{person}{Claude Fachkha}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Security Monitoring of the Cyber Space}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1608.01468}
+  (\bibinfo{year}{2016}).
+\newblock
+\showeprint[arxiv]{1608.01468}
+\urldef\tempurl%
+\url{http://arxiv.org/abs/1608.01468}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Fachkha} and {Debbabi}}{{Fachkha} and
+  {Debbabi}}{2016}]%
+        {7317717}
+\bibfield{author}{\bibinfo{person}{C. {Fachkha}} {and} \bibinfo{person}{M.
+  {Debbabi}}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Darknet as a Source of Cyber Intelligence: Survey,
+  Taxonomy, and Characterization}.
+\newblock \bibinfo{journal}{\emph{IEEE Communications Surveys Tutorials}}
+  \bibinfo{volume}{18}, \bibinfo{number}{2} (\bibinfo{date}{Secondquarter}
+  \bibinfo{year}{2016}), \bibinfo{pages}{1197--1227}.
+\newblock
+\showISSN{1553-877X}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/COMST.2015.2497690}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Farace and Sch{\"o}pfel}{Farace and
@@ -383,6 +616,20 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/conf/iscram/iscram2017.html\#GabrielSBSGM17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gadge and Patil}{Gadge and Patil}{2008}]%
+        {GadgeP08}
+\bibfield{author}{\bibinfo{person}{Jayant Gadge} {and}
+  \bibinfo{person}{Anish~Anand Patil}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Port scan detection.}. In
+  \bibinfo{booktitle}{\emph{ICON}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{1--6}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/icon/icon2008.html#GadgeP08}
 \showURL{%
 \tempurl}
 
@@ -466,6 +713,37 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Ghosh, Porras, Yegneswaran, Nitz, and
+  Das}{Ghosh et~al\mbox{.}}{2017}]%
+        {GhoshPYND17}
+\bibfield{author}{\bibinfo{person}{Shalini Ghosh}, \bibinfo{person}{Phillip~A.
+  Porras}, \bibinfo{person}{Vinod Yegneswaran}, \bibinfo{person}{Ken Nitz},
+  {and} \bibinfo{person}{Ariyam Das}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{ATOL: A Framework for Automated Analysis and
+  Categorization of the Darkweb Ecosystem.}. In \bibinfo{booktitle}{\emph{AAAI
+  Workshops}} \emph{(\bibinfo{series}{AAAI Workshops})}.
+  \bibinfo{publisher}{AAAI Press}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/aaai/aaai2017w.html#GhoshPYND17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gordon and Ford}{Gordon and Ford}{2002}]%
+        {GordonF02}
+\bibfield{author}{\bibinfo{person}{Sarah Gordon} {and} \bibinfo{person}{Richard
+  Ford}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Cyberterrorism?}
+\newblock \bibinfo{journal}{\emph{Computers \& Security}} \bibinfo{volume}{21},
+  \bibinfo{number}{7} (\bibinfo{year}{2002}), \bibinfo{pages}{636--647}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/compsec/compsec21.html#GordonF02}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Green and Swets}{Green and Swets}{1989}]%
         {Green1989}
 \bibfield{author}{\bibinfo{person}{David~Marvin Green} {and}
@@ -478,6 +756,21 @@
 \showISBNx{0932146236}
 \urldef\tempurl%
 \url{http://www.amazon.com/Signal-Detection-Theory-Psychophysics-Marvin/dp/0932146236}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Griffith, Xu, and Ratti}{Griffith
+  et~al\mbox{.}}{2017}]%
+        {GriffithXR17}
+\bibfield{author}{\bibinfo{person}{Virgil Griffith}, \bibinfo{person}{Yang Xu},
+  {and} \bibinfo{person}{Carlo Ratti}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Graph Theoretic Properties of the Darkweb.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1704.07525}
+  (\bibinfo{year}{2017}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1704.html#GriffithXR17}
 \showURL{%
 \tempurl}
 
@@ -508,6 +801,38 @@
 \shownote{Retrieved on March 2011.}
 
 
+\bibitem[\protect\citeauthoryear{Hale}{Hale}{2018}]%
+        {darkdeepnet}
+\bibfield{author}{\bibinfo{person}{Jennifer Hale}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{What is the dark web? From drugs and guns to the
+  Chloe Ayling kidnapping, a look inside the encrypted network}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2DiVmq7}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Han, Wang, Cui, Ma, and Zhang}{Han
+  et~al\mbox{.}}{2017}]%
+        {HanWCMZ17}
+\bibfield{author}{\bibinfo{person}{Xiaohui Han}, \bibinfo{person}{Lianhai
+  Wang}, \bibinfo{person}{Chaoran Cui}, \bibinfo{person}{Jun Ma}, {and}
+  \bibinfo{person}{Shuhui Zhang}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Linking Multiple Online Identities in Criminal
+  Investigations: A Spectral Co-Clustering Framework.}
+\newblock \bibinfo{journal}{\emph{IEEE Trans. Information Forensics and
+  Security}} \bibinfo{volume}{12}, \bibinfo{number}{9} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{2242--2255}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/tifs/tifs12.html#HanWCMZ17}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Harel and Gery}{Harel and Gery}{1997}]%
         {HarelGery1997}
 \bibfield{author}{\bibinfo{person}{David Harel} {and} \bibinfo{person}{Eran
@@ -519,6 +844,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Haughey, Epiphaniou, Al-Khateeb, and
+  Dehghantanha}{Haughey et~al\mbox{.}}{2018}]%
+        {Haughey18}
+\bibfield{author}{\bibinfo{person}{Hamish Haughey}, \bibinfo{person}{Gregory
+  Epiphaniou}, \bibinfo{person}{Haider~M. Al-Khateeb}, {and}
+  \bibinfo{person}{Ali Dehghantanha}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Adaptive Traffic Fingerprinting for Darknet Threat
+  Intelligence.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1808.01155}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1808.html#abs-1808-01155}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Hoofnagle}{Hoofnagle}{2013}]%
         {Hoofnagle2013}
 \bibfield{author}{\bibinfo{person}{Chris~Jay Hoofnagle}.}
@@ -527,6 +869,24 @@
   {R}egulates {B}ig {D}ata}. In \bibinfo{booktitle}{\emph{{F}uture of {P}rivacy
   {F}orum {W}orkshop on {B}ig {D}ata and {P}rivacy: {M}aking {E}nds {M}eet}}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Siegel, and Madnick}{Huang
+  et~al\mbox{.}}{2018}]%
+        {Huang2018}
+\bibfield{author}{\bibinfo{person}{Keman Huang}, \bibinfo{person}{Michael
+  Siegel}, {and} \bibinfo{person}{Stuart Madnick}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Systematically Understanding the Cyber Attack
+  Business: A Survey}.
+\newblock \bibinfo{journal}{\emph{ACM Comput. Surv.}} \bibinfo{volume}{51},
+  \bibinfo{number}{4}, Article \bibinfo{articleno}{70} (\bibinfo{date}{July}
+  \bibinfo{year}{2018}), \bibinfo{numpages}{36}~pages.
+\newblock
+\showISSN{0360-0300}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3199674}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Johnson and Onwuegbuzie}{Johnson and
@@ -546,6 +906,20 @@
 \showeprint{http://edr.sagepub.com/content/33/7/14.full.pdf+html}
 
 
+\bibitem[\protect\citeauthoryear{Kandula}{Kandula}{2005}]%
+        {Kandula05}
+\bibfield{author}{\bibinfo{person}{Srikanth Kandula}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Surviving DDoS Attacks.}
+\newblock \bibinfo{journal}{\emph{;login:}} \bibinfo{volume}{30},
+  \bibinfo{number}{5} (\bibinfo{year}{2005}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/usenix-login/usenix-login30.html#Kandula05}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Khan}{Khan}{2006}]%
         {KhanIJKBIES}
 \bibfield{author}{\bibinfo{person}{Asifullah Khan}.}
@@ -563,6 +937,18 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Khelghati}{Khelghati}{2016}]%
+        {Khelghati16}
+\bibfield{author}{\bibinfo{person}{Mohammadreza Khelghati}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Deep web content monitoring.}}
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}. \bibinfo{school}{University
+  of Twente, Enschede, Netherlands}.
+\newblock
+\newblock
+\shownote{base-search.net (ftunivtwente:oai:doc.utwente.nl:100466).}
+
+
 \bibitem[\protect\citeauthoryear{Kieseberg, Segou, and Roli}{Kieseberg
   et~al\mbox{.}}{2015}]%
         {KiesebergSR15}
@@ -575,6 +961,57 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/journals/ercim/ercim2015.html#KiesebergSR15}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kikuchi, Fukuno, Terada, and Doi}{Kikuchi
+  et~al\mbox{.}}{2008}]%
+        {KikuchiFTD08}
+\bibfield{author}{\bibinfo{person}{Hiroaki Kikuchi}, \bibinfo{person}{Naoya
+  Fukuno}, \bibinfo{person}{Masato Terada}, {and} \bibinfo{person}{Norihisa
+  Doi}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Principal Components of Port-Address Matrices in
+  Port-Scan Analysis.}. In \bibinfo{booktitle}{\emph{OTM Conferences (2)}}
+  (2008-11-09) \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Robert Meersman} {and}
+  \bibinfo{person}{Zahir Tari}} (Eds.), Vol.~\bibinfo{volume}{5332}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{956--968}.
+\newblock
+\showISBNx{978-3-540-88872-7}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/otm/otm2008-2.html#KikuchiFTD08}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kim and Kim}{Kim and Kim}{2018}]%
+        {abs-1811-10050}
+\bibfield{author}{\bibinfo{person}{Daegeon Kim} {and} \bibinfo{person}{Huy~Kang
+  Kim}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Automated Dataset Generation System for
+  Collaborative Research of Cyber Threat Intelligence Analysis.}
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/1811.10050}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1811.html#abs-1811-10050}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kim, Kim, and Hwang}{Kim
+  et~al\mbox{.}}{2013}]%
+        {KimKH13}
+\bibfield{author}{\bibinfo{person}{Kichang Kim}, \bibinfo{person}{Jeankyung
+  Kim}, {and} \bibinfo{person}{Jinsoo Hwang}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{IP traceback with sparsely-tagged fragment marking
+  scheme under massively multiple attack paths.}
+\newblock \bibinfo{journal}{\emph{Cluster Computing}} \bibinfo{volume}{16},
+  \bibinfo{number}{2} (\bibinfo{year}{2013}), \bibinfo{pages}{229--239}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/cluster/cluster16.html#KimKH13}
 \showURL{%
 \tempurl}
 
@@ -609,6 +1046,22 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Kleinberg}{Kleinberg}{2000}]%
+        {Kleinberg2000}
+\bibfield{author}{\bibinfo{person}{Jon Kleinberg}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{The Small-world Phenomenon: An Algorithmic
+  Perspective}. In \bibinfo{booktitle}{\emph{Proceedings of the Thirty-second
+  Annual ACM Symposium on Theory of Computing}} \emph{(\bibinfo{series}{STOC
+  '00})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{163--170}.
+\newblock
+\showISBNx{1-58113-184-4}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/335305.335325}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Krippendorff}{Krippendorff}{2004}]%
         {content}
 \bibfield{author}{\bibinfo{person}{Klaus Krippendorff}.}
@@ -617,6 +1070,38 @@
   Methodology (second edition)}}.
 \newblock \bibinfo{publisher}{Sage Publications}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Kumar and Mittra}{Kumar and Mittra}{2014}]%
+        {kumar2014intrusion}
+\bibfield{author}{\bibinfo{person}{Ashutosh Kumar} {and}
+  \bibinfo{person}{Mayank~Kumar Mittra}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{INTRUSION DETECTION SYSTEM An Approach for Finding
+  Attacks}.
+\newblock \bibinfo{journal}{\emph{Science Park Research Journal}}
+  \bibinfo{volume}{1}, \bibinfo{number}{39} (\bibinfo{date}{April}
+  \bibinfo{year}{2014}).
+\newblock
+\urldef\tempurl%
+\url{http://www.scienceparks.in/ArticlePDF/75.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lakhotia and Black}{Lakhotia and
+  Black}{2017}]%
+        {LakhotiaB17}
+\bibfield{author}{\bibinfo{person}{Arun Lakhotia} {and} \bibinfo{person}{Paul
+  Black}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Mining malware secrets.}. In
+  \bibinfo{booktitle}{\emph{MALWARE}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{11--18}.
+\newblock
+\showISBNx{978-1-5386-1436-5}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/malware/malware2017.html#LakhotiaB17}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Lauinger, Pankakoski, Balzarotti, and
@@ -636,6 +1121,37 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{League}{League}{2018}]%
+        {surfacewebdef}
+\bibfield{author}{\bibinfo{person}{Hackers League}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{What is Surface Web, Deep Web and Dark Web?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2SWF7G6}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Leckie and Ramamohanarao}{Leckie and
+  Ramamohanarao}{2002}]%
+        {LeckieR02}
+\bibfield{author}{\bibinfo{person}{Christopher Leckie} {and}
+  \bibinfo{person}{Kotagiri Ramamohanarao}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{A probabilistic approach to detecting network
+  scans.}. In \bibinfo{booktitle}{\emph{NOMS}},
+  \bibfield{editor}{\bibinfo{person}{Rolf Stadler} {and}
+  \bibinfo{person}{Mehmet Ulema}} (Eds.). \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{359--372}.
+\newblock
+\showISBNx{0-7803-7383-9}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/noms/noms2002.html#LeckieR02}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Li, Sanghi, Chavez, Chen, and Kao}{Li
   et~al\mbox{.}}{2006}]%
         {li06ieee}
@@ -643,9 +1159,22 @@
   \bibinfo{person}{Brian Chavez}, \bibinfo{person}{Yan Chen}, {and}
   \bibinfo{person}{Ming-Yang Kao}.} \bibinfo{year}{2006}\natexlab{}.
 \newblock \showarticletitle{Hamsa: Fast Signature Generation for Zero-day
-  Polymorphic Worms with Provable Attack Resilience}. In
-  \bibinfo{booktitle}{\emph{#IEEE06#}}.
+  Polymorphic Worms with Provable Attack Resilience}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu and Fukuda}{Liu and Fukuda}{2018}]%
+        {LiuF18}
+\bibfield{author}{\bibinfo{person}{Jun Liu} {and} \bibinfo{person}{Kensuke
+  Fukuda}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{An Evaluation of Darknet Traffic Taxonomy.}
+\newblock \bibinfo{journal}{\emph{JIP}}  \bibinfo{volume}{26}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{148--157}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/jip/jip26.html#LiuF18}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Ma, Sun, and Abraham}{Ma
@@ -680,6 +1209,35 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{{Malwarebytes.com}}{{Malwarebytes.com}}{[n.
+  d.]}]%
+        {malware}
+\bibfield{author}{\bibinfo{person}{{Malwarebytes.com}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{All about malware}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2SRoQG1}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Martine and Rugg}{Martine and Rugg}{2005}]%
+        {MartineR05}
+\bibfield{author}{\bibinfo{person}{Giselle Martine} {and}
+  \bibinfo{person}{Gordon Rugg}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{That site looks 88.46\% familiar: quantifying
+  similarity of Web page design.}
+\newblock \bibinfo{journal}{\emph{Expert Systems}} \bibinfo{volume}{22},
+  \bibinfo{number}{3} (\bibinfo{year}{2005}), \bibinfo{pages}{115--120}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/es/es22.html#MartineR05}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Mataracioglu, Ã–zkan, and
   Hackney}{Mataracioglu et~al\mbox{.}}{2015}]%
         {MataraciogluOH15}
@@ -697,6 +1255,25 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Mazel, Fontugne, and Fukuda}{Mazel
+  et~al\mbox{.}}{2016}]%
+        {MazelFF16}
+\bibfield{author}{\bibinfo{person}{Johan Mazel}, \bibinfo{person}{Romain
+  Fontugne}, {and} \bibinfo{person}{Kensuke Fukuda}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Identifying Coordination of Network Scans Using
+  Probed Address Structure.}. In \bibinfo{booktitle}{\emph{TMA}},
+  \bibfield{editor}{\bibinfo{person}{Alessio Botta}, \bibinfo{person}{Ramin
+  Sadre}, {and} \bibinfo{person}{Fabian Bustamante}} (Eds.).
+  \bibinfo{publisher}{IFIP}.
+\newblock
+\showISBNx{978-3-901882-92-0}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/tma/tma2016.html#MazelFF16}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Meland, T~{\o}ndel, and Solhaug}{Meland
   et~al\mbox{.}}{2015}]%
         {MelandTS15}
@@ -710,6 +1287,112 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/journals/ieeesp/ieeesp13.html\#MelandTS15}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nabki, Fidalgo, Alegre, and de~Paz}{Nabki
+  et~al\mbox{.}}{2017}]%
+        {NabkiFAP17}
+\bibfield{author}{\bibinfo{person}{Mhd Wesam~Al Nabki},
+  \bibinfo{person}{Eduardo Fidalgo}, \bibinfo{person}{Enrique Alegre}, {and}
+  \bibinfo{person}{Ivan de Paz}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Classifying Illegal Activities on Tor Network Based
+  on Web Textual Contents.}. In \bibinfo{booktitle}{\emph{EACL (1)}},
+  \bibfield{editor}{\bibinfo{person}{Mirella Lapata}, \bibinfo{person}{Phil
+  Blunsom}, {and} \bibinfo{person}{Alexander Koller}} (Eds.).
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{pages}{35--43}.
+\newblock
+\showISBNx{978-1-945626-34-0}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/eacl/eacl2017-1.html#NabkiFAP17}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Narayanan and Shmatikov}{Narayanan and
+  Shmatikov}{2009}]%
+        {Narayanan2009}
+\bibfield{author}{\bibinfo{person}{Arvind Narayanan} {and}
+  \bibinfo{person}{Vitaly Shmatikov}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{title}{De-anonymizing Social Networks}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://arxiv.org/abs/0903.3276}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Narita, Kamada, Ogura, Bista, and
+  Takata}{Narita et~al\mbox{.}}{2016}]%
+        {NaritaKOBT16}
+\bibfield{author}{\bibinfo{person}{Masaki Narita}, \bibinfo{person}{Keisuke
+  Kamada}, \bibinfo{person}{Kanayo Ogura}, \bibinfo{person}{Bhed~Bahadur
+  Bista}, {and} \bibinfo{person}{Toyoo Takata}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A Study of Packet Sampling Methods for Protecting
+  Sensors Deployed on Darknet.}. In \bibinfo{booktitle}{\emph{NBiS}}.
+  \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{pages}{76--83}.
+\newblock
+\showISBNx{978-1-5090-0979-4}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/nbis/nbis2016.html#NaritaKOBT16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nassiri}{Nassiri}{2018}]%
+        {tintelligence}
+\bibfield{author}{\bibinfo{person}{Ahmad Nassiri}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{IOT AND DDOS: CYBERATTACKS ON THE RISE}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2SsThD0}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Neu, Tatsch, Lunardi, Michelin, Orozco, and
+  Zorzo}{Neu et~al\mbox{.}}{2018}]%
+        {NeuTLMOZ18}
+\bibfield{author}{\bibinfo{person}{Charles~V. Neu}, \bibinfo{person}{Cassio~G.
+  Tatsch}, \bibinfo{person}{Roben~C. Lunardi}, \bibinfo{person}{Regio~A.
+  Michelin}, \bibinfo{person}{Alex M.~S. Orozco}, {and}
+  \bibinfo{person}{Avelino~F. Zorzo}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Lightweight IPS for port scan in OpenFlow SDN
+  networks.}. In \bibinfo{booktitle}{\emph{NOMS}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{1--6}.
+\newblock
+\showISBNx{978-1-5386-3416-5}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/noms/noms2018.html#NeuTLMOZ18}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nishikaze, Ozawa, Kitazono, Ban, Nakazato, and
+  Shimamura}{Nishikaze et~al\mbox{.}}{2015}]%
+        {NishikazeOKBNS15}
+\bibfield{author}{\bibinfo{person}{Hironori Nishikaze},
+  \bibinfo{person}{Seiichi Ozawa}, \bibinfo{person}{Jun Kitazono},
+  \bibinfo{person}{Tao Ban}, \bibinfo{person}{Junji Nakazato}, {and}
+  \bibinfo{person}{Jumpei Shimamura}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Large-Scale Monitoring for Cyber Attacks by Using
+  Cluster Information on Darknet Traffic Features.}. In
+  \bibinfo{booktitle}{\emph{INNS Conference on Big Data}}
+  \emph{(\bibinfo{series}{Procedia Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Asim Roy}, \bibinfo{person}{Plamen
+  Angelov}, \bibinfo{person}{Adel~M. Alimi}, \bibinfo{person}{Ganesh~Kumar
+  Venayagamoorthy}, {and} \bibinfo{person}{Theodore~B. Trafalis}} (Eds.),
+  Vol.~\bibinfo{volume}{53}. \bibinfo{publisher}{Elsevier},
+  \bibinfo{pages}{175--182}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/inns-wc/innsbd2015.html#NishikazeOKBNS15}
 \showURL{%
 \tempurl}
 
@@ -733,6 +1416,23 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Nunes, Shakarian, and Simari}{Nunes
+  et~al\mbox{.}}{2018}]%
+        {NunesSS18}
+\bibfield{author}{\bibinfo{person}{Eric Nunes}, \bibinfo{person}{Paulo
+  Shakarian}, {and} \bibinfo{person}{Gerardo~I. Simari}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{At-risk system identification via analysis of
+  discussions on the darkweb.}. In \bibinfo{booktitle}{\emph{eCrime}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{978-1-5386-4922-0}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/ecrime/ecrime2018.html#NunesSS18}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{O'Riordan, Feller, and Nagle}{O'Riordan
   et~al\mbox{.}}{2016}]%
         {ORiordanFN16}
@@ -747,6 +1447,18 @@
 \newblock
 \urldef\tempurl%
 \url{http://dblp.uni-trier.de/db/journals/jds/jds25.html\#ORiordanFN16}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{osint.it}{osint.it}{2015}]%
+        {OSINT}
+\bibfield{author}{\bibinfo{person}{osint.it}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{{OSINT}, one important kind of intelligence}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2DzMZab}
 \showURL{%
 \tempurl}
 
@@ -771,6 +1483,40 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Parveen, McDaniel, Weger, Evans,
+  Thuraisingham, Hamlen, and Khan}{Parveen et~al\mbox{.}}{2013}]%
+        {ParveenMWETHK13}
+\bibfield{author}{\bibinfo{person}{Pallabi Parveen}, \bibinfo{person}{Nathan
+  McDaniel}, \bibinfo{person}{Zackary~R. Weger}, \bibinfo{person}{Jonathan
+  Evans}, \bibinfo{person}{Bhavani~M. Thuraisingham}, \bibinfo{person}{Kevin~W.
+  Hamlen}, {and} \bibinfo{person}{Latifur Khan}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Evolving Insider Threat Detection Stream Mining
+  Perspective.}
+\newblock \bibinfo{journal}{\emph{International Journal on Artificial
+  Intelligence Tools}} \bibinfo{volume}{22}, \bibinfo{number}{5}
+  (\bibinfo{year}{2013}).
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ijait/ijait22.html#ParveenMWETHK13}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Pcmag Encyclopedia}}{{Pcmag
+  Encyclopedia}}{[n. d.]}]%
+        {domain}
+\bibfield{author}{\bibinfo{person}{{Pcmag Encyclopedia}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{What is Internet Domain?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2EylhL0}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Petersen, Feldt, Mujtaba, and
   Mattsson}{Petersen et~al\mbox{.}}{2008}]%
         {sms-petersen}
@@ -783,6 +1529,35 @@
   Engineering}}. \bibinfo{publisher}{BCS Learning \& Development Ltd.},
   \bibinfo{pages}{68--77}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Phillips and Lee}{Phillips and Lee}{2009}]%
+        {PhillipsL09}
+\bibfield{author}{\bibinfo{person}{Peter Phillips} {and}
+  \bibinfo{person}{Ickjai Lee}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Mining top-k and bottom-k correlative crime
+  patterns through graph representations.}. In \bibinfo{booktitle}{\emph{ISI}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{25--30}.
+\newblock
+\showISBNx{978-1-4244-4171-6}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/isi/isi2009.html#PhillipsL09}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Porup}{Porup}{2018}]%
+        {tor}
+\bibfield{author}{\bibinfo{person}{J.M. Porup}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{What is the Tor Browser? How it works and how it can
+  help you protect your identity online}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2Nh05wv}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Rahul and Sujata}{Rahul and Sujata}{2018}]%
@@ -817,6 +1592,56 @@
 \showISBNx{1911218433}
 
 
+\bibitem[\protect\citeauthoryear{Rocha}{Rocha}{2015}]%
+        {Rocha15a}
+\bibfield{author}{\bibinfo{person}{Francisco Rocha}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Insider threat: memory confidentiality and
+  integrity in the cloud.}}
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}. \bibinfo{school}{Newcastle
+  University, UK}.
+\newblock
+\newblock
+\shownote{British Library, EThOS.}
+
+
+\bibitem[\protect\citeauthoryear{Santos, Nguyen, Yu, Kim, Li, Wilkinson, Olson,
+  Jacob, and Clark}{Santos et~al\mbox{.}}{2012}]%
+        {SantosNYKLWOJC12}
+\bibfield{author}{\bibinfo{person}{Eugene Santos}, \bibinfo{person}{Hien
+  Nguyen}, \bibinfo{person}{Fei Yu}, \bibinfo{person}{Keum~Joo Kim},
+  \bibinfo{person}{Deqing Li}, \bibinfo{person}{John~Thomas Wilkinson},
+  \bibinfo{person}{Adam Olson}, \bibinfo{person}{Russell Jacob}, {and}
+  \bibinfo{person}{Brittany Clark}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Intelligence Analyses and the Insider Threat.}
+\newblock \bibinfo{journal}{\emph{IEEE Trans. Systems, Man, and Cybernetics,
+  Part A}} \bibinfo{volume}{42}, \bibinfo{number}{2} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{331--347}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/tsmc/tsmca42.html#SantosNYKLWOJC12}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Schneider, Moreira, Andrade, Havlin, and
+  Herrmann}{Schneider et~al\mbox{.}}{2011}]%
+        {Schneider2011Mitigation}
+\bibfield{author}{\bibinfo{person}{Christian~M. Schneider},
+  \bibinfo{person}{Andr\'{e}~A. Moreira}, \bibinfo{person}{Jos\'{e}~S.
+  Andrade}, \bibinfo{person}{Shlomo Havlin}, {and} \bibinfo{person}{Hans~J.
+  Herrmann}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Mitigation of malicious attacks on networks}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{108}, \bibinfo{number}{10} (\bibinfo{date}{08
+  March} \bibinfo{year}{2011}), \bibinfo{pages}{3838--3841}.
+\newblock
+\showISSN{1091-6490}
+\urldef\tempurl%
+\url{https://doi.org/10.1073/pnas.1009440108}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Schreiber and Carley}{Schreiber and
   Carley}{2004}]%
         {gtval}
@@ -849,6 +1674,40 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Setola, Luiijf, and Theocharidou}{Setola
+  et~al\mbox{.}}{2016}]%
+        {setola2016critical}
+\bibfield{author}{\bibinfo{person}{Roberto Setola}, \bibinfo{person}{Eric
+  Luiijf}, {and} \bibinfo{person}{Marianthi Theocharidou}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Critical infrastructures, protection and
+  resilience}.
+\newblock In \bibinfo{booktitle}{\emph{Managing the Complexity of Critical
+  Infrastructures}}. \bibinfo{publisher}{Springer, Cham},
+  \bibinfo{pages}{1--18}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shosha, Liu, Gladyshev, and Matten}{Shosha
+  et~al\mbox{.}}{2012}]%
+        {ShoshaLGM12}
+\bibfield{author}{\bibinfo{person}{Ahmed~F. Shosha},
+  \bibinfo{person}{Chen-Ching Liu}, \bibinfo{person}{Pavel Gladyshev}, {and}
+  \bibinfo{person}{Marcus Matten}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Evasion-resistant malware signature based on
+  profiling kernel data structure objects.}. In
+  \bibinfo{booktitle}{\emph{CRiSIS}}, \bibfield{editor}{\bibinfo{person}{Fabio
+  Martinelli}, \bibinfo{person}{Jean-Louis Lanet}, \bibinfo{person}{William~M.
+  Fitzgerald}, {and} \bibinfo{person}{Simon~N. Foley}} (Eds.).
+  \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{978-1-4673-3087-9}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/crisis/crisis2012.html#ShoshaLGM12}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Sievert and Shirley}{Sievert and
   Shirley}{2014}]%
         {W14-3110}
@@ -863,6 +1722,24 @@
 \urldef\tempurl%
 \url{https://doi.org/10.3115/v1/W14-3110}
 \showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Skopik, Settanni, and Fiedler}{Skopik
+  et~al\mbox{.}}{2016}]%
+        {SkopikSF16}
+\bibfield{author}{\bibinfo{person}{Florian Skopik}, \bibinfo{person}{Giuseppe
+  Settanni}, {and} \bibinfo{person}{Roman Fiedler}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A problem shared is a problem halved: A survey on
+  the dimensions of collective cyber defense through security information
+  sharing.}
+\newblock \bibinfo{journal}{\emph{Computers \& Security}}  \bibinfo{volume}{60}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{154--176}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/compsec/compsec60.html#SkopikSF16}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Solano and Peinado}{Solano and
@@ -883,6 +1760,19 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Sorensen}{Sorensen}{2012}]%
+        {sorensen2012}
+\bibfield{author}{\bibinfo{person}{Sarah Sorensen}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{title}{Security implications of software-defined networks}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://www.fiercetelecom.com/story/security-implications-software-defined-networks/2012-05-14}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Stempfhuber, Schaer, and Shen}{Stempfhuber
   et~al\mbox{.}}{2008}]%
         {stempfhuber2008enhancing}
@@ -894,6 +1784,41 @@
   International Conference on Grey Literature: Grey Foundations in Information
   Landscape}} \emph{(\bibinfo{series}{GL-conference series})}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Sureka, Kumaraguru, Goyal, and Chhabra}{Sureka
+  et~al\mbox{.}}{2010}]%
+        {sureka2010mining}
+\bibfield{author}{\bibinfo{person}{Ashish Sureka}, \bibinfo{person}{Ponnurangam
+  Kumaraguru}, \bibinfo{person}{Atul Goyal}, {and} \bibinfo{person}{Sidharth
+  Chhabra}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Mining YouTube to Discover Extremist Videos, Users
+  and Hidden Communities}.
+\newblock In \bibinfo{booktitle}{\emph{Information Retrieval Technology}},
+  \bibfield{editor}{\bibinfo{person}{Pu-Jen Cheng}, \bibinfo{person}{Min-Yen
+  Kan}, \bibinfo{person}{Wai Lam}, {and} \bibinfo{person}{Preslav Nakov}}
+  (Eds.). \bibinfo{series}{Lecture Notes in Computer Science},
+  Vol.~\bibinfo{volume}{6458}. \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{pages}{13--24}.
+\newblock
+\showISBNx{978-3-642-17186-4}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-642-17187-1_2}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Symantec employee}}{{Symantec employee}}{[n.
+  d.]}]%
+        {mitm}
+\bibfield{author}{\bibinfo{person}{{Symantec employee}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{What is a man-in-the-middle attack?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://nr.tn/2N0AOYt}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Tang, Li, and Zhang}{Tang
@@ -913,6 +1838,59 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Team}{Team}{2017}]%
+        {piracy}
+\bibfield{author}{\bibinfo{person}{Microsoft Philippines~PR Team}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{NUS Study: Cybercriminals Exploit Pirated Software to
+  Fuel Malware Infections in Asia Pacific}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2BvsviK}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Techopedia}}{{Techopedia}}{[n. d.]a}]%
+        {Hacktivism}
+\bibfield{author}{\bibinfo{person}{{Techopedia}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{a}.
+\newblock \bibinfo{title}{What does Hacktivism mean?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2ScnUsk}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Techopedia}}{{Techopedia}}{[n. d.]b}]%
+        {hpot}
+\bibfield{author}{\bibinfo{person}{{Techopedia}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{b}.
+\newblock \bibinfo{title}{What does Honeypot mean?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2EdGSdC}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Techopedia}}{{Techopedia}}{[n. d.]c}]%
+        {spoof}
+\bibfield{author}{\bibinfo{person}{{Techopedia}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{c}.
+\newblock \bibinfo{title}{What does Spoofing mean?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2N2McTB}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Techopedia}{Techopedia}{2019}]%
         {techopedia}
 \bibfield{author}{\bibinfo{person}{Techopedia}.}
@@ -922,6 +1900,34 @@
 \newblock
 \urldef\tempurl%
 \url{https://bit.ly/2w5CXfJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Techtarget.com}}{{Techtarget.com}}{[n.
+  d.]a}]%
+        {insthreat}
+\bibfield{author}{\bibinfo{person}{{Techtarget.com}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{a}.
+\newblock \bibinfo{title}{insider threat}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2BzZuSS}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Techtarget.com}}{{Techtarget.com}}{[n.
+  d.]b}]%
+        {wholeatt}
+\bibfield{author}{\bibinfo{person}{{Techtarget.com}}.} \bibinfo{year}{[n.
+  d.]}\natexlab{b}.
+\newblock \bibinfo{title}{watering hole attack}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2I9B60n}
 \showURL{%
 \tempurl}
 
@@ -979,6 +1985,22 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Veerasamy and Grobler}{Veerasamy and
+  Grobler}{2015}]%
+        {VeerasamyG15}
+\bibfield{author}{\bibinfo{person}{Namosha Veerasamy} {and}
+  \bibinfo{person}{Marthie Grobler}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Logic Tester for the Classification of
+  Cyberterrorism Attacks.}
+\newblock \bibinfo{journal}{\emph{IJCWT}} \bibinfo{volume}{5},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{30--46}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/ijcwt/ijcwt5.html#VeerasamyG15}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Vidal and Choo}{Vidal and Choo}{2017}]%
         {VidalC17}
 \bibfield{author}{\bibinfo{person}{Chaz Vidal} {and}
@@ -1000,6 +2022,37 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Wang, Wang, Shi, Tan, Gao, Chen, and
+  Jiang}{Wang et~al\mbox{.}}{2018}]%
+        {WangWSTGCJ18}
+\bibfield{author}{\bibinfo{person}{Meiqi Wang}, \bibinfo{person}{Xuebin Wang},
+  \bibinfo{person}{Jinqiao Shi}, \bibinfo{person}{Qingfeng Tan},
+  \bibinfo{person}{Yue Gao}, \bibinfo{person}{Muqian Chen}, {and}
+  \bibinfo{person}{Xiaoming Jiang}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Who are in the Darknet? Measurement and Analysis of
+  Darknet Person Attributes.}. In \bibinfo{booktitle}{\emph{DSC}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{948--955}.
+\newblock
+\showISBNx{978-1-5386-4210-8}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/dsc/dsc2018.html#WangWSTGCJ18}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wisegeek}{Wisegeek}{[n. d.]}]%
+        {crawler}
+\bibfield{author}{\bibinfo{person}{Wisegeek}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{What Is a Web {C}rawler?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://bit.ly/2DBzEOv}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell,
   and Wessl{\'e}n}{Wohlin et~al\mbox{.}}{2000}]%
         {wohlin}
@@ -1013,6 +2066,21 @@
   \bibinfo{address}{Norwell, MA, USA}.
 \newblock
 \showISBNx{0-7923-8682-5}
+
+
+\bibitem[\protect\citeauthoryear{Wood}{Wood}{2017}]%
+        {Wood17}
+\bibfield{author}{\bibinfo{person}{George Wood}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The structure and vulnerability of a drug
+  trafficking collaboration network.}
+\newblock \bibinfo{journal}{\emph{Social Networks}}  \bibinfo{volume}{48}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{1--9}.
+\newblock
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/journals/socnet/socnet48.html#Wood17}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Xu, Zhan, Xu, and Ye}{Xu
@@ -1031,6 +2099,62 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1145/2435349.2435366}
 \showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yang, Shi, Zheng, and Wang}{Yang
+  et~al\mbox{.}}{2007}]%
+        {YangSZW07}
+\bibfield{author}{\bibinfo{person}{Jufeng Yang}, \bibinfo{person}{Guangshun
+  Shi}, \bibinfo{person}{Yan Zheng}, {and} \bibinfo{person}{Qingren Wang}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Data Extraction from Deep Web Pages.}. In
+  \bibinfo{booktitle}{\emph{CIS}}. \bibinfo{publisher}{IEEE Computer Society},
+  \bibinfo{pages}{237--241}.
+\newblock
+\showISBNx{0-7695-3072-9}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/cis/cis2007.html#YangSZW07}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yannikos, Sch\"{a}fer, and
+  Steinebach}{Yannikos et~al\mbox{.}}{2018}]%
+        {Yannikos2018}
+\bibfield{author}{\bibinfo{person}{York Yannikos}, \bibinfo{person}{Annika
+  Sch\"{a}fer}, {and} \bibinfo{person}{Martin Steinebach}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Monitoring Product Sales in Darknet Shops}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 13th International Conference on
+  Availability, Reliability and Security}} \emph{(\bibinfo{series}{ARES
+  2018})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  Article \bibinfo{articleno}{59}, \bibinfo{numpages}{7}~pages.
+\newblock
+\showISBNx{978-1-4503-6448-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3230833.3233258}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yegneswaran, Barford, and Plonka}{Yegneswaran
+  et~al\mbox{.}}{2004}]%
+        {YegneswaranBP04}
+\bibfield{author}{\bibinfo{person}{Vinod Yegneswaran}, \bibinfo{person}{Paul
+  Barford}, {and} \bibinfo{person}{David Plonka}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{On the Design and Use of Internet Sinks for Network
+  Abuse Monitoring.}. In \bibinfo{booktitle}{\emph{RAID}}
+  \emph{(\bibinfo{series}{Lecture Notes in Computer Science})},
+  \bibfield{editor}{\bibinfo{person}{Erland Jonsson}, \bibinfo{person}{Alfonso
+  Valdes}, {and} \bibinfo{person}{Magnus Almgren}} (Eds.),
+  Vol.~\bibinfo{volume}{3224}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{146--165}.
+\newblock
+\showISBNx{3-540-23123-4}
+\urldef\tempurl%
+\url{http://dblp.uni-trier.de/db/conf/raid/raid2004.html#YegneswaranBP04}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Zave}{Zave}{2003}]%
