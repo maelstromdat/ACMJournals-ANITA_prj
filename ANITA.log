@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  13 FEB 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  13 FEB 2019 10:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1947,21 +1947,21 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 6.
- [1.1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (12.7699pt too wide) in paragraph at lines 44--45
+ [1.1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+.2]
+Overfull \hbox (12.7699pt too wide) in paragraph at lines 47--48
 []|[]| 
  []
 
 
-Overfull \hbox (2.80269pt too wide) in paragraph at lines 40--68
+Overfull \hbox (2.80269pt too wide) in paragraph at lines 43--71
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 68.
-[2.2]
-Underfull \vbox (badness 1009) has occurred while \output is active []
+(Font)              scaled to size 8.0pt on input line 71.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1970,26 +1970,25 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3.3]
+Underfull \vbox (badness 2269) has occurred while \output is active []
 
-Package hyperref Warning: Suppressing link with empty target on input line 86.
-
-[4.4]
-
-Package hyperref Warning: Suppressing link with empty target on input line 89.
-
+ [4.4]
 
 Package hyperref Warning: Suppressing link with empty target on input line 89.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 89.
+Package hyperref Warning: Suppressing link with empty target on input line 92.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 94.
+Package hyperref Warning: Suppressing link with empty target on input line 92.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 92.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 97.
 
 ) (./rd.tex
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 20.51453pt.
@@ -2025,8 +2024,6 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 105.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 5.5pt on input line 105.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 148.
 
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -2034,11 +2031,11 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7.7]) (./res.tex
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
- [8.8]
-<./img/gcorptype.pdf, id=266, 350.94951pt x 212.10944pt>
+[7.7]
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 148.
+ [8.8]) (./res.tex
+<./img/gcorptype.pdf, id=265, 350.94951pt x 212.10944pt>
 File: ./img/gcorptype.pdf Graphic file (type pdf)
 
 <use ./img/gcorptype.pdf>
@@ -2048,7 +2045,7 @@ Package pdftex.def Info: ./img/gcorptype.pdf used on input line 7.
 
 Class acmart Warning: A possible image without description on input line 10.
 
-<./img/gtimeline.pdf, id=274, 351.44853pt x 208.77603pt>
+<./img/gtimeline.pdf, id=273, 351.44853pt x 208.77603pt>
 File: ./img/gtimeline.pdf Graphic file (type pdf)
 
 <use ./img/gtimeline.pdf>
@@ -2058,7 +2055,7 @@ Package pdftex.def Info: ./img/gtimeline.pdf used on input line 16.
 
 Class acmart Warning: A possible image without description on input line 19.
 
-<./img/gtypeeval.pdf, id=275, 329.85811pt x 215.335pt>
+<./img/gtypeeval.pdf, id=274, 329.85811pt x 215.335pt>
 File: ./img/gtypeeval.pdf Graphic file (type pdf)
 
 <use ./img/gtypeeval.pdf>
@@ -2068,7 +2065,7 @@ Package pdftex.def Info: ./img/gtypeeval.pdf used on input line 23.
 
 Class acmart Warning: A possible image without description on input line 26.
 
-<./img/weval.png, id=277, 577.15625pt x 373.395pt>
+<./img/weval.png, id=276, 577.15625pt x 373.395pt>
 File: ./img/weval.png Graphic file (type png)
  <use ./img/weval.png>
 Package pdftex.def Info: ./img/weval.png used on input line 32.
@@ -2077,7 +2074,7 @@ Package pdftex.def Info: ./img/weval.png used on input line 32.
 
 Class acmart Warning: A possible image without description on input line 35.
 
-<./img/wtimeline.pdf, id=281, 348.44264pt x 207.06383pt>
+<./img/wtimeline.pdf, id=280, 348.44264pt x 207.06383pt>
 File: ./img/wtimeline.pdf Graphic file (type pdf)
 
 <use ./img/wtimeline.pdf>
@@ -2087,7 +2084,7 @@ Package pdftex.def Info: ./img/wtimeline.pdf used on input line 41.
 
 Class acmart Warning: A possible image without description on input line 44.
 
-<./img/wvenue.png, id=282, 622.325pt x 368.37625pt>
+<./img/wvenue.png, id=281, 622.325pt x 368.37625pt>
 File: ./img/wvenue.png Graphic file (type png)
  <use ./img/wvenue.png>
 Package pdftex.def Info: ./img/wvenue.png used on input line 48.
@@ -2096,7 +2093,14 @@ Package pdftex.def Info: ./img/wvenue.png used on input line 48.
 
 Class acmart Warning: A possible image without description on input line 51.
 
-<./img/codescount.png, id=284, 568.1225pt x 388.45125pt>
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 20.51453pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9.9 <./img/gcorptype.pdf>]
+<./img/codescount.png, id=306, 568.1225pt x 388.45125pt>
 File: ./img/codescount.png Graphic file (type png)
 
 <use ./img/codescount.png>
@@ -2106,14 +2110,7 @@ Package pdftex.def Info: ./img/codescount.png used on input line 59.
 
 Class acmart Warning: A possible image without description on input line 62.
 
-
-Package Fancyhdr Warning: \headheight is too small (13.0pt): 
- Make it at least 20.51453pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9.9 <./img/gcorptype.pdf>]
-<./img/taxo1.pdf, id=309, 1408.26125pt x 686.565pt>
+<./img/taxo1.pdf, id=308, 1408.26125pt x 686.565pt>
 File: ./img/taxo1.pdf Graphic file (type pdf)
  <use ./img/taxo1.pdf>
 Package pdftex.def Info: ./img/taxo1.pdf used on input line 70.
@@ -2144,7 +2141,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15.15] <./img/taxo2.pdf, id=550, 1408.26125pt x 710.655pt>
+[15.15] <./img/taxo2.pdf, id=548, 1408.26125pt x 710.655pt>
 File: ./img/taxo2.pdf Graphic file (type pdf)
 
 <use ./img/taxo2.pdf>
@@ -2155,20 +2152,14 @@ Package pdftex.def Info: ./img/taxo2.pdf used on input line 137.
 Class acmart Warning: A possible image without description on input line 140.
 
 [16.16]
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 20.51453pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17.17 <./img/taxo2.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18.18]
-<./img/codingALL_topic1.pdf, id=710, 726.36848pt x 422.05981pt>
+[17.17 <./img/taxo2.pdf>] [18.18]
+<./img/codingALL_topic1.pdf, id=706, 726.36848pt x 422.05981pt>
 File: ./img/codingALL_topic1.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic1.pdf>
@@ -2184,7 +2175,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/codingALL_topic2.pdf, id=712, 724.24054pt x 419.22322pt>
+<./img/codingALL_topic2.pdf, id=708, 724.24054pt x 419.22322pt>
 File: ./img/codingALL_topic2.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic2.pdf>
@@ -2200,7 +2191,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/codingALL_topic3.pdf, id=713, 737.7179pt x 427.734pt>
+<./img/codingALL_topic3.pdf, id=709, 737.7179pt x 427.734pt>
 File: ./img/codingALL_topic3.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic3.pdf>
@@ -2545,7 +2536,7 @@ Package rerunfilecheck Info: File `ANITA.out' has not changed.
 Here is how much of TeX's memory you used:
  37550 strings out of 493089
  675270 string characters out of 6134841
- 780462 words of memory out of 5000000
+ 781895 words of memory out of 5000000
  39406 multiletter control sequences out of 15000+600000
  212497 words of font info for 465 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -2569,7 +2560,7 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/libertine/LinLibertin
 eTI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on ANITA.pdf (34 pages, 1725282 bytes).
+Output written on ANITA.pdf (34 pages, 1726124 bytes).
 PDF statistics:
  1333 PDF objects out of 1440 (max. 8388607)
  1114 compressed objects within 12 object streams
