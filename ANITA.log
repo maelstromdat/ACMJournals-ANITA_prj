@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  13 FEB 2019 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.23)  13 FEB 2019 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1662,14 +1662,18 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 113
 \c@theorem=\count221
 
 Include comment 'screenonly' Excluding comment 'printonly'
-Include comment 'anonsuppress' (./ANITA.aux)
+Include comment 'anonsuppress'
+
+LaTeX Warning: Unused global option(s):
+    [CSUR].
+
+(./ANITA.aux)
 \openout1 = `ANITA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 113.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 11
 3.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 113.
@@ -2035,7 +2039,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 148.
  [8.8]) (./res.tex
-<./img/gcorptype.pdf, id=265, 350.94951pt x 212.10944pt>
+<./img/gcorptype.pdf, id=261, 350.94951pt x 212.10944pt>
 File: ./img/gcorptype.pdf Graphic file (type pdf)
 
 <use ./img/gcorptype.pdf>
@@ -2045,7 +2049,7 @@ Package pdftex.def Info: ./img/gcorptype.pdf used on input line 7.
 
 Class acmart Warning: A possible image without description on input line 10.
 
-<./img/gtimeline.pdf, id=273, 351.44853pt x 208.77603pt>
+<./img/gtimeline.pdf, id=269, 351.44853pt x 208.77603pt>
 File: ./img/gtimeline.pdf Graphic file (type pdf)
 
 <use ./img/gtimeline.pdf>
@@ -2055,7 +2059,7 @@ Package pdftex.def Info: ./img/gtimeline.pdf used on input line 16.
 
 Class acmart Warning: A possible image without description on input line 19.
 
-<./img/gtypeeval.pdf, id=274, 329.85811pt x 215.335pt>
+<./img/gtypeeval.pdf, id=270, 329.85811pt x 215.335pt>
 File: ./img/gtypeeval.pdf Graphic file (type pdf)
 
 <use ./img/gtypeeval.pdf>
@@ -2065,7 +2069,7 @@ Package pdftex.def Info: ./img/gtypeeval.pdf used on input line 23.
 
 Class acmart Warning: A possible image without description on input line 26.
 
-<./img/weval.png, id=276, 577.15625pt x 373.395pt>
+<./img/weval.png, id=272, 577.15625pt x 373.395pt>
 File: ./img/weval.png Graphic file (type png)
  <use ./img/weval.png>
 Package pdftex.def Info: ./img/weval.png used on input line 32.
@@ -2074,7 +2078,7 @@ Package pdftex.def Info: ./img/weval.png used on input line 32.
 
 Class acmart Warning: A possible image without description on input line 35.
 
-<./img/wtimeline.pdf, id=280, 348.44264pt x 207.06383pt>
+<./img/wtimeline.pdf, id=276, 348.44264pt x 207.06383pt>
 File: ./img/wtimeline.pdf Graphic file (type pdf)
 
 <use ./img/wtimeline.pdf>
@@ -2084,7 +2088,7 @@ Package pdftex.def Info: ./img/wtimeline.pdf used on input line 41.
 
 Class acmart Warning: A possible image without description on input line 44.
 
-<./img/wvenue.png, id=281, 622.325pt x 368.37625pt>
+<./img/wvenue.png, id=277, 622.325pt x 368.37625pt>
 File: ./img/wvenue.png Graphic file (type png)
  <use ./img/wvenue.png>
 Package pdftex.def Info: ./img/wvenue.png used on input line 48.
@@ -2100,7 +2104,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9.9 <./img/gcorptype.pdf>]
-<./img/codescount.png, id=306, 568.1225pt x 388.45125pt>
+<./img/codescount.png, id=302, 568.1225pt x 388.45125pt>
 File: ./img/codescount.png Graphic file (type png)
 
 <use ./img/codescount.png>
@@ -2110,7 +2114,7 @@ Package pdftex.def Info: ./img/codescount.png used on input line 59.
 
 Class acmart Warning: A possible image without description on input line 62.
 
-<./img/taxo1.pdf, id=308, 1408.26125pt x 686.565pt>
+<./img/taxo1.pdf, id=304, 1408.26125pt x 686.565pt>
 File: ./img/taxo1.pdf Graphic file (type pdf)
  <use ./img/taxo1.pdf>
 Package pdftex.def Info: ./img/taxo1.pdf used on input line 70.
@@ -2141,7 +2145,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15.15] <./img/taxo2.pdf, id=548, 1408.26125pt x 710.655pt>
+[15.15] <./img/taxo2.pdf, id=544, 1408.26125pt x 710.655pt>
 File: ./img/taxo2.pdf Graphic file (type pdf)
 
 <use ./img/taxo2.pdf>
@@ -2159,7 +2163,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17.17 <./img/taxo2.pdf>] [18.18]
-<./img/codingALL_topic1.pdf, id=706, 726.36848pt x 422.05981pt>
+<./img/codingALL_topic1.pdf, id=702, 726.36848pt x 422.05981pt>
 File: ./img/codingALL_topic1.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic1.pdf>
@@ -2175,7 +2179,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/codingALL_topic2.pdf, id=708, 724.24054pt x 419.22322pt>
+<./img/codingALL_topic2.pdf, id=704, 724.24054pt x 419.22322pt>
 File: ./img/codingALL_topic2.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic2.pdf>
@@ -2191,7 +2195,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/codingALL_topic3.pdf, id=709, 737.7179pt x 427.734pt>
+<./img/codingALL_topic3.pdf, id=705, 737.7179pt x 427.734pt>
 File: ./img/codingALL_topic3.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic3.pdf>
@@ -2218,7 +2222,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/codingALL_topic4.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./img/codingALL_topic4.pdf, id=728, 742.68317pt x 421.35117pt>
+<./img/codingALL_topic4.pdf, id=724, 742.68317pt x 421.35117pt>
 File: ./img/codingALL_topic4.pdf Graphic file (type pdf)
 
 <use ./img/codingALL_topic4.pdf>
@@ -2245,7 +2249,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/DARKDEEP_topic1.pdf, id=799, 736.02339pt x 428.87627pt>
+<./img/DARKDEEP_topic1.pdf, id=795, 736.02339pt x 428.87627pt>
 File: ./img/DARKDEEP_topic1.pdf Graphic file (type pdf)
 
 <use ./img/DARKDEEP_topic1.pdf>
@@ -2261,7 +2265,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/DARKDEEP_topic2.pdf, id=801, 738.44118pt x 426.45824pt>
+<./img/DARKDEEP_topic2.pdf, id=797, 738.44118pt x 426.45824pt>
 File: ./img/DARKDEEP_topic2.pdf Graphic file (type pdf)
 
 <use ./img/DARKDEEP_topic2.pdf>
@@ -2277,7 +2281,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/DARKDEEP_topic3.pdf, id=804, 727.15573pt x 428.07028pt>
+<./img/DARKDEEP_topic3.pdf, id=800, 727.15573pt x 428.07028pt>
 File: ./img/DARKDEEP_topic3.pdf Graphic file (type pdf)
 
 <use ./img/DARKDEEP_topic3.pdf>
@@ -2301,7 +2305,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/DARKDEEP_topic4.pdf, id=880, 732.7987pt x 433.71333pt>
+<./img/DARKDEEP_topic4.pdf, id=876, 732.7987pt x 433.71333pt>
 File: ./img/DARKDEEP_topic4.pdf Graphic file (type pdf)
 
 <use ./img/DARKDEEP_topic4.pdf>
@@ -2325,7 +2329,7 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/surfaceWEB.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./img/surfaceWEB.pdf, id=984, 445.0791pt x 307.9746pt>
+<./img/surfaceWEB.pdf, id=980, 445.0791pt x 307.9746pt>
 File: ./img/surfaceWEB.pdf Graphic file (type pdf)
 
 <use ./img/surfaceWEB.pdf>
@@ -2335,7 +2339,7 @@ Package pdftex.def Info: ./img/surfaceWEB.pdf used on input line 597.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/deepDARKweb.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./img/deepDARKweb.pdf, id=985, 443.95804pt x 307.30109pt>
+<./img/deepDARKweb.pdf, id=981, 443.95804pt x 307.30109pt>
 File: ./img/deepDARKweb.pdf Graphic file (type pdf)
 
 <use ./img/deepDARKweb.pdf>
@@ -2346,8 +2350,13 @@ Package pdftex.def Info: ./img/deepDARKweb.pdf used on input line 599.
 Class acmart Warning: A possible image without description on input line 602.
 
 ) [26.26 <./img/DARKDEEP_topic4.pdf> <./img/surfaceWEB.pdf> <./img/deepDARKweb.
-pdf>] (./disc.tex)
-Underfull \vbox (badness 7012) has occurred while \output is active []
+pdf>] (./disc.tex
+
+Package natbib Warning: Citation `Lauinger2010HoneybotYM' on page 27 undefined 
+on input line 25.
+
+
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
 
 
@@ -2356,18 +2365,17 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27.27] (./conc.tex) Processing 'acks' comment.
+[27.27]) (./conc.tex
+Underfull \vbox (badness 4048) has occurred while \output is active []
+
+ [28.28])
+Processing 'acks' comment.
 \openout4 = `comment.cut'.
 
-
-Comment 'acks' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut) (./ANITA.bbl
+ Comment 'acks' writing to comment.cut.
+Straight input of comment.cut. (./comment.cut) (./ANITA.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 55.
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [28.28]
 LaTeX Info: Redefining \tempurl on input line 87.
 LaTeX Info: Redefining \tempurl on input line 105.
 LaTeX Info: Redefining \tempurl on input line 123.
@@ -2375,6 +2383,14 @@ LaTeX Info: Redefining \tempurl on input line 153.
 LaTeX Info: Redefining \tempurl on input line 184.
 LaTeX Info: Redefining \tempurl on input line 207.
 LaTeX Info: Redefining \tempurl on input line 222.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 20.51453pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29.29]
 LaTeX Info: Redefining \tempurl on input line 242.
 LaTeX Info: Redefining \tempurl on input line 259.
 LaTeX Info: Redefining \tempurl on input line 283.
@@ -2386,17 +2402,6 @@ LaTeX Info: Redefining \tempurl on input line 388.
 LaTeX Info: Redefining \tempurl on input line 407.
 LaTeX Info: Redefining \tempurl on input line 420.
 LaTeX Info: Redefining \tempurl on input line 433.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (13.0pt): 
- Make it at least 20.51453pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29.29]
 LaTeX Info: Redefining \tempurl on input line 482.
 LaTeX Info: Redefining \tempurl on input line 498.
 LaTeX Info: Redefining \tempurl on input line 512.
@@ -2407,6 +2412,7 @@ LaTeX Info: Redefining \tempurl on input line 598.
 LaTeX Info: Redefining \tempurl on input line 618.
 LaTeX Info: Redefining \tempurl on input line 632.
 LaTeX Info: Redefining \tempurl on input line 649.
+ [30.30]
 LaTeX Info: Redefining \tempurl on input line 681.
 LaTeX Info: Redefining \tempurl on input line 696.
 LaTeX Info: Redefining \tempurl on input line 711.
@@ -2418,10 +2424,6 @@ LaTeX Info: Redefining \tempurl on input line 788.
 LaTeX Info: Redefining \tempurl on input line 813.
 LaTeX Info: Redefining \tempurl on input line 831.
 LaTeX Info: Redefining \tempurl on input line 859.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30.30]
 LaTeX Info: Redefining \tempurl on input line 888.
 LaTeX Info: Redefining \tempurl on input line 904.
 LaTeX Info: Redefining \tempurl on input line 918.
@@ -2431,6 +2433,17 @@ LaTeX Info: Redefining \tempurl on input line 983.
 LaTeX Info: Redefining \tempurl on input line 998.
 LaTeX Info: Redefining \tempurl on input line 1014.
 LaTeX Info: Redefining \tempurl on input line 1045.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 20.51453pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31.31]
 LaTeX Info: Redefining \tempurl on input line 1061.
 LaTeX Info: Redefining \tempurl on input line 1086.
 LaTeX Info: Redefining \tempurl on input line 1102.
@@ -2445,14 +2458,6 @@ LaTeX Info: Redefining \tempurl on input line 1253.
 LaTeX Info: Redefining \tempurl on input line 1272.
 LaTeX Info: Redefining \tempurl on input line 1289.
 LaTeX Info: Redefining \tempurl on input line 1309.
-
-
-Package Fancyhdr Warning: \headheight is too small (13.0pt): 
- Make it at least 20.51453pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31.31]
 LaTeX Info: Redefining \tempurl on input line 1323.
 LaTeX Info: Redefining \tempurl on input line 1341.
 LaTeX Info: Redefining \tempurl on input line 1354.
@@ -2464,6 +2469,7 @@ LaTeX Info: Redefining \tempurl on input line 1449.
 LaTeX Info: Redefining \tempurl on input line 1461.
 LaTeX Info: Redefining \tempurl on input line 1481.
 LaTeX Info: Redefining \tempurl on input line 1501.
+ [32.32]
 LaTeX Info: Redefining \tempurl on input line 1515.
 LaTeX Info: Redefining \tempurl on input line 1544.
 LaTeX Info: Redefining \tempurl on input line 1558.
@@ -2475,10 +2481,6 @@ LaTeX Info: Redefining \tempurl on input line 1673.
 LaTeX Info: Redefining \tempurl on input line 1706.
 LaTeX Info: Redefining \tempurl on input line 1723.
 LaTeX Info: Redefining \tempurl on input line 1740.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32.32]
 LaTeX Info: Redefining \tempurl on input line 1758.
 LaTeX Info: Redefining \tempurl on input line 1771.
 
@@ -2500,6 +2502,13 @@ LaTeX Info: Redefining \tempurl on input line 1916.
 LaTeX Info: Redefining \tempurl on input line 1930.
 LaTeX Info: Redefining \tempurl on input line 1950.
 LaTeX Info: Redefining \tempurl on input line 1964.
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 20.51453pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33.33]
 LaTeX Info: Redefining \tempurl on input line 1983.
 LaTeX Info: Redefining \tempurl on input line 1999.
 LaTeX Info: Redefining \tempurl on input line 2020.
@@ -2512,35 +2521,28 @@ LaTeX Info: Redefining \tempurl on input line 2135.
 LaTeX Info: Redefining \tempurl on input line 2155.
 )
 
+Package natbib Warning: There were undefined citations.
+
+
 Class acmart Warning: Some images may lack descriptions.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (13.0pt): 
- Make it at least 20.51453pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33.33] [34.34]
+[34.34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
  (./ANITA.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
 Package rerunfilecheck Info: File `ANITA.out' has not changed.
-(rerunfilecheck)             Checksum: 8DBFB76FB1BCEEE64E3DC3AB4574735E;5148.
+(rerunfilecheck)             Checksum: E52AA31D2AAB8369AFA84A82132CB500;4898.
  ) 
 Here is how much of TeX's memory you used:
- 37550 strings out of 493089
- 675270 string characters out of 6134841
- 781895 words of memory out of 5000000
- 39406 multiletter control sequences out of 15000+600000
- 212497 words of font info for 465 fonts, out of 8000000 for 9000
+ 37563 strings out of 493089
+ 675533 string characters out of 6134841
+ 781905 words of memory out of 5000000
+ 39411 multiletter control sequences out of 15000+600000
+ 213293 words of font info for 469 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 62i,19n,94p,10394b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,94p,10394b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/
 usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/u
 sr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/
@@ -2560,10 +2562,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/libertine/LinLibertin
 eTI.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on ANITA.pdf (34 pages, 1726124 bytes).
+Output written on ANITA.pdf (34 pages, 1729538 bytes).
 PDF statistics:
- 1333 PDF objects out of 1440 (max. 8388607)
- 1114 compressed objects within 12 object streams
- 262 named destinations out of 1000 (max. 500000)
- 48440 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1332 PDF objects out of 1440 (max. 8388607)
+ 1113 compressed objects within 12 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 48432 words of extra memory for PDF output out of 51595 (max. 10000000)
 
